@@ -1,37 +1,25 @@
-"""Sélection de paires actif/passif dans SICK (paraphrases = implication mutuelle).
+"""Rajouter commentaire sur utilisation
 
-Usage :
-  1. Télécharger et décompresser SICK.zip (https://zenodo.org/record/2787612) ;
-     le fichier utile est SICK.txt (séparateur : tabulation).
-  2. python src/select_sick.py data/SICK.txt 60   # 60 paires, graine fixée
-     (à lancer depuis la racine du dépôt ; écrit selection/sick_selection_regenerated.tsv,
-      sans toucher à la sélection figée selection/sick_selection.tsv)
+Marche de regénérer un fichier pour la démo chez moi, par contre j'ai pas tout à fait les mêmes phrases
 
-Filtres, appliqués dans cet ordre (le nombre de paires restantes est affiché) :
-  1. implication mutuelle : A_entails_B ET B_entails_A (= paraphrase selon SICK) ;
-  2. exactement une des deux phrases a un sujet passif (nsubjpass, spaCy) ;
-  3. MÊME VERBE : le verbe passivé a le même lemme que le verbe actif de l'autre
-     phrase (on ne garde que de vraies alternances de voix, sans changement de lexique) ;
-  4. déduplication : une seule paire par phrase d'origine SICK, on écarte les
-     quasi-doublons (recouvrement des lemmes de contenu >= DUP_THRESHOLD) et on
-     limite à MAX_PER_VERB paires par verbe.
-Le tirage est aléatoire mais reproductible (SEED) et se fait AVANT de regarder
-les résultats des systèmes, pour ne pas choisir les paires qui nous arrangent.
 """
+
+# MODULES
 import csv
 import random
 import sys
-
+import os
 import spacy
 
+# CONSTANTES - Maybe un fichiers à part si beaucoup de constantes (?)
 SEED = 42
 DUP_THRESHOLD = 0.7
-MAX_PER_VERB = 4      # au plus 4 paires par verbe, pour ne pas laisser 4-5 verbes dominer
+MAX_PER_VERB = 4      # choix => au plus 4 paires par verbe, pour ne pas laisser 4-5 verbes dominer le corpus
 nlp = spacy.load("en_core_web_sm")
 
 
 def norm(lemma):
-    """Le lemmatiseur de spaCy se trompe parfois (riding -> « rid », ridden -> « ride »).
+    """Le lemmatiseur de spaCy peut se tromper (riding -> « rid », ridden -> « ride »).
     On neutralise le -e final pour que « rid » et « ride » soient comparables."""
     lemma = lemma.lower()
     return lemma[:-1] if lemma.endswith("e") and len(lemma) > 3 else lemma
@@ -75,7 +63,7 @@ def run(path, n):
     with open(path, encoding="utf-8") as f:
         rows = list(csv.DictReader(f, delimiter="\t"))
     step1 = [r for r in rows if mutual_entailment(r)]
-    print(f"1. implication mutuelle : {len(step1)} paires")
+    print(f"On regarde si y'a implication mutuelle : {len(step1)} paires")
 
     step2, step3 = [], []
     for r in step1:
@@ -86,8 +74,8 @@ def run(path, n):
                 r["_lemmas"] = content_lemmas(a, b)
                 r["_verb"] = sorted(passive_verbs(a) | passive_verbs(b))[0]
                 step3.append(r)
-    print(f"2. une phrase au passif : {len(step2)} paires")
-    print(f"3. même verbe actif/passif : {len(step3)} paires")
+    print(f"Sort les phrases au passif : {len(step2)} paires")
+    print(f"Si même verbe pour actif/passif : {len(step3)} paires")
 
     random.seed(SEED)
     random.shuffle(step3)
@@ -105,9 +93,9 @@ def run(path, n):
         chosen.append(r)
         if len(chosen) == n:
             break
-    print(f"4. après déduplication, {len(chosen)} paires retenues (demandé : {n})")
+    print(f"Problème parfois phrase trop proche donc je dédupliques, {len(chosen)} paires retenues (demandé : {n})")
 
-    import os
+    
     os.makedirs("selection", exist_ok=True)
     with open("selection/sick_selection_regenerated.tsv", "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, delimiter="\t")

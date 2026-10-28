@@ -1,3 +1,6 @@
+# Script de téléchargement pour récupérer les données - ça marche chez moi (Caro)
+
+
 """Télécharge et décompresse le corpus SICK dans data/ (non versionné)."""
 import pathlib
 import urllib.request
