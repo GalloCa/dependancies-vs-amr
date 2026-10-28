@@ -1,0 +1,16 @@
+# Données téléchargées (le script download_data.py les récupère)
+data/
+# Environnements et caches Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+# Modèles lourds (AMRlib télécharge les siens)
+*.pt
+*.bin
+*.safetensors
+models/
+# Fichiers du système
+.DS_Store
+Thumbs.db
