@@ -14,7 +14,7 @@ dest.mkdir(exist_ok=True)
 zip_path = dest / "SICK.zip"
 
 if not zip_path.exists():
-    print("Téléchargement de SICK...")
+    print("Téléchargement de SICK")
     urllib.request.urlretrieve(URL, zip_path)
 with zipfile.ZipFile(zip_path) as z:
     z.extractall(dest)
