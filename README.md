@@ -1,17 +1,22 @@
+## WIP 
+
 # L'AMR est-elle plus robuste que la syntaxe face aux reformulations ?
 
 Projet du cours *Syntaxe et Sémantique* (M2 IdL, UGA, 2026).
-Auteurs : [NOM Prénom], [NOM Prénom], [NOM Prénom].
+Auteurs : Mettre nos noms ici 
 
 ## Objectif
 
 Comparer deux systèmes de règles qui extraient un triplet (agent, action, patient) :
 l'un sur les arbres de dépendances (spaCy), l'autre sur les graphes AMR (AMRlib + Penman).
-On mesure s'ils extraient **le même triplet** des deux phrases d'une paire à implication mutuelle
-(ex. « A girl is playing a flute » / « A flute is being played by a girl »).
 
-Attention : ce critère mesure la **cohérence entre deux phrases**, pas la justesse du triplet,
-et « implication mutuelle » (annotation NLI de SICK) n'est pas une paraphrase stricte.
+
+**A vérifier avec le groupe si c'est bien ça**
+*On mesure s'ils extraient **le même triplet** des deux phrases d'une paire à implication mutuelle
+(ex. « A girl is playing a flute » / « A flute is being played by a girl »).*
+
+*Attention : ce critère mesure la **cohérence entre deux phrases**, pas la justesse du triplet,
+et « implication mutuelle » (annotation NLI de SICK) n'est pas une paraphrase stricte.*
 
 ## Installation
 
@@ -22,7 +27,7 @@ pip install -r requirements.txt
 python -m spacy download en_core_web_sm
 ```
 
-Versions utilisées : voir `requirements.txt` (spaCy 3.8.18, modèle `en_core_web_sm` 3.8.0).
+Versions spacy utilisées : spaCy 3.8.18, modèle `en_core_web_sm` 3.8.0
 
 ## Données
 
@@ -45,13 +50,13 @@ filtres suivants (compteurs sur le corpus complet, 9 840 paires) :
 | 3 | Même verbe (lemme) à l'actif et au passif | 307 |
 | 4 | Déduplication (une paire par phrase d'origine, quasi-doublons écartés, max. 4 paires par verbe) puis tirage de 60 (graine 42) | 60 |
 
-Pour regénérer la sélection (le résultat peut différer légèrement selon la version de spaCy) :
+Pour regénérer la sélection (attention => le résultat peut différer légèrement selon la version de spaCy) :
 
 ```
 python src/select_sick.py data/SICK.txt 60
 ```
 
-Le fichier produit est `selection/sick_selection_regenerated.tsv` ; il ne remplace jamais la sélection figée.
+Produit un nouveau fichier `selection/sick_selection_regenerated.tsv` 
 
 ## Structure du dépôt
 
@@ -65,14 +70,21 @@ data/                corpus téléchargé (non versionné)
 results/             sorties des expériences
 ```
 
-## Limites
+## Résultats 
+
+***A compléter***
+
+
+## Limites (à compléter)
 
 - Une seule transformation étudiée (alternance actif/passif), sur des phrases courtes.
 - Une partie des paires de SICK est construite par transformation automatique de phrases d'origine.
 - 60 paires : seuls des écarts nets sont interprétables.
-- Les résultats dépendent de la qualité des deux parseurs, non vérifiée sur ces données.
+- Les résultats dépendent de la qualité des deux parseurs.
 
 ## Référence
 
 Marelli et al. (2014), *A SICK cure for the evaluation of compositional distributional semantic
 models*. Corpus : https://zenodo.org/record/2787612 (licence : voir la page du corpus).
+
+spacy et amr pennman (?)
