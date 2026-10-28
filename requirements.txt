@@ -6,4 +6,5 @@ scipy==1.17.1
 numpy==2.4.4
 matplotlib==3.10.8
 amrlib==0.8.1
-# Modèle spaCy (installé à part, voir README) : en_core_web_sm==3.8.0
+
+# Note : Modèle spaCy = en_core_web_sm==3.8.0
