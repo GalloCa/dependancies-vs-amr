@@ -1,8 +1,9 @@
-## WIP 
+## WIP : 
 
 # L'AMR est-elle plus robuste que la syntaxe face aux reformulations ?
 
 Projet du cours *Syntaxe et Sémantique* (M2 IdL, UGA, 2026).
+
 Auteurs : Mettre nos noms ici 
 
 ## Objectif
