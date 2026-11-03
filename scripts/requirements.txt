@@ -8,3 +8,4 @@ smatch==1.0.4
 scipy==1.17.1
 numpy==2.4.4
 matplotlib==3.10.8
+graphviz==0.21

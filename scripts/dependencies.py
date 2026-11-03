@@ -1,8 +1,12 @@
 """
 Module dependencies : définit la classe Dependencies, qui analyse une phrase
-en dépendances avec spaCy et extrait un triplet (agent, action, patient).
+en dépendances avec spaCy, en extrait un triplet (agent, action, patient) et
+fournit deux représentations de l'arbre : un dessin SVG (displaCy) et un texte
+au format Conll
 Ce module est importé par main.py ; il ne se lance pas tout seul.
 """
+
+from spacy import displacy
 
 class Dependencies:
     """
@@ -10,8 +14,14 @@ class Dependencies:
 
     Propriétés publiques :
         phrase : phrase (str) en lecture seule
+        tree_image : le dessin de l'arbre de dépendances en texte SVG (str),
+                     produit par displaCy, prêt pour la page HTML
 
     Méthodes publiques :
+        to_conll    : ne reçoit rien ; renvoie l'arbre au format Conll (str) :
+                      une ligne par token, colonnes séparées par des tabulations
+                      (position du token, token, lemme, étiquette de dépendance,
+                      gouverneur, position du gouverneur)
         find_root   : ne reçoit rien ; renvoie le token racine de self.doc
                       (étiquette ROOT), ou None si aucun token n'a cette étiquette
         find_child  : reçoit un token (le gouverneur) et une étiquette de dépendance (str) ;
@@ -21,9 +31,9 @@ class Dependencies:
         triplet_dep : ne reçoit rien ; renvoie un tuple (agent, action, patient) de
                       lemmes en minuscules (str). L'agent et le patient valent None
                       s'ils ne sont pas trouvés. Renvoie None si la phrase n'a pas de racine.
-                      Actif  : agent = enfant « nsubj », patient = enfant « dobj » de la racine.
-                      Passif : patient = enfant « nsubjpass » de la racine,
-                               agent = enfant « pobj » de l'enfant « agent ».
+                      Actif  : agent = enfant "nsubj", patient = enfant "dobj" de la racine.
+                      Passif : patient = enfant "nsubjpass" de la racine,
+                               agent = enfant "pobj" de l'enfant "agent".
 
     Attributs privés:
         doc : objet Doc de spaCy, résultat de parsing de la phrase par spaCy
@@ -32,6 +42,13 @@ class Dependencies:
     def __init__(self, phrase, nlp):
         self.phrase = phrase
         self.doc = nlp(phrase)
+        self.tree_image = displacy.render(self.doc, style = "dep", jupyter=False)
+
+    def to_conll(self):
+        mots = []
+        for w in self.doc:
+            mots.append(f"{w.i+1}\t{w.text}\t{w.lemma_}\t{w.dep_}\t{w.head}\t{w.head.i+1}")
+        return "\n".join(mots)
 
     def find_root(self):
         for w in self.doc:
@@ -61,7 +78,7 @@ class Dependencies:
             agent_first = self.find_child(gouverneur, "agent")
             agent = self.find_child(agent_first, "pobj")
 
-        # au cas ou on peut voir si la phrase est négative
+        # !!! DECOMMENTER POUR TESTER PHRASES NEGATIVES !!!
         # no = self.find_child(gouverneur, "neg")
         # negation = no is not None
 
@@ -70,4 +87,4 @@ class Dependencies:
         if agent is not None:
             agent = agent.lemma_.lower()
 
-        return agent, action, patient # negation
+        return agent, action, patient # negation ----- !!! DECOMMENTER POUR TESTER PHRASES NEGATIVES !!!

@@ -15,13 +15,8 @@ class AMR:
         phrase : phrase (str) en lecture seule
 
     Méthodes publiques :
-        concept_digit : reçoit le token du concept de la phrase ;
-                        renvoie que la partie lexicale du concept, qui devient la lemme
-                        comparable à celle d'un gouverneur en dépendances, sans suffixes 
-                        comme '-01' et '-02', ex. 'play-11 --> play'
-
-                        reçoit un concept AMR (str) ; renvoie le concept sans son
-                        numéro de sens (ex. play-11 -- > play, look-up-01 --> look-up),
+        concept_digit : concept_digit : reçoit un concept AMR (str) ; renvoie le concept sans son
+                        numéro de sens final (ex. play-11 -- > play, look-up-01 --> look-up), 
                         ou le concept inchangé s'il n'a pas de numéro (ex. girl)
         find_concept  : reçoit une variable du graphe (str, ex. g) ; renvoie le
                         concept de cette variable, sans numéro de sens et en
@@ -46,7 +41,6 @@ class AMR:
         self.phrase = phrase
         self.parsed_phrase = model.parse_sents([self.phrase])[0] # le premier element parce que la liste contient qu'un seul element
         self.graph = penman.decode(self.parsed_phrase)
-
 
     def concept_digit(self, concept):
         word = concept.rsplit("-", maxsplit=1)
@@ -79,8 +73,12 @@ class AMR:
         agent = self.find_concept(self.find_argument(self.graph.top, ":ARG0"))
 
         patient = self.find_concept(self.find_argument(self.graph.top, ":ARG1"))
+        # :ARG1 n'est pas toujours un patient -->
+        # !!! DECOMMENTER POUR TESTER !!!
+        # if patient == None:
+            # patient = self.find_concept(self.find_argument(self.graph.top, ":ARG2"))
 
-        # au cas ou on peut voir si la phrase est négative
+        # !!! DECOMMENTER POUR TESTER PHRASES NEGATIVES !!!
         # negation = False
         # for i in self.graph.attributes():
         #     if i.source == self.graph.top and i.role == ":polarity" and i.target == "-":
