@@ -88,4 +88,10 @@ results/             sorties des expériences
 Marelli et al. (2014), *A SICK cure for the evaluation of compositional distributional semantic
 models*. Corpus : https://zenodo.org/record/2787612 (licence : voir la page du corpus).
 
-spacy et amr pennman (?)
+
+* **Corpus SICK** : Marelli, M., Menini, S., Baroni, M., Bentivogli, L., Bernardi, R., & Zamparelli, R. (2014). *A SICK cure for the evaluation of compositional distributional semantic models*. In Proceedings of LREC 2014. [Lien Zenodo](https://zenodo.org/record/2787612).
+* **spaCy** : Honnibal, M., & Montani, I. (2017). *spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing*. [spacy.io](https://spacy.io/).
+* **AMR (Abstract Meaning Representation)** : Banarescu, L., Bonial, C., Hermjakob, U., Knight, K., O'Gorman, T., & Palmer, M. (2013). *Abstract Meaning Representation for Sembanking*. In Proceedings of the 7th Linguistic Annotation Workshop.
+* **Penman & AMRlib** : 
+  * Bibliothèque Python Penman : [Goodman (2020), Penman: An AMR Library](https://github.com/manninglab/penman).
+  * Bibliothèque AMRlib : [amrlib documentation](https://github.com/bjascob/amrlib).
