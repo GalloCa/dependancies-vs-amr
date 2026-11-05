@@ -4,7 +4,7 @@
 
 Projet du cours *Syntaxe et Sémantique* (M2 IdL, UGA, 2026).
 
-Auteurs : Mettre nos noms ici 
+Auteurs : Gallo caroline MERAZGA Yacine ...
 
 ## Objectif
 
