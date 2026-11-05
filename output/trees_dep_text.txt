@@ -1,208 +1,120 @@
-# sent_id = 4748_A
-# text = A little girl is playing the violin on a beach
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	girl	3
-2	little	little	amod	girl	3
-3	girl	girl	nsubj	playing	5
-4	is	be	aux	playing	5
-5	playing	play	ROOT	playing	5
-6	the	the	det	violin	7
-7	violin	violin	dobj	playing	5
-8	on	on	prep	playing	5
-9	a	a	det	beach	10
-10	beach	beach	pobj	on	8
-
-# sent_id = 4748_B
-# text = The violin is being played by a little girl on a beach
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	violin	2
-2	violin	violin	nsubjpass	played	5
-3	is	be	aux	played	5
-4	being	be	auxpass	played	5
-5	played	play	ROOT	played	5
-6	by	by	agent	played	5
-7	a	a	det	girl	9
-8	little	little	amod	girl	9
-9	girl	girl	pobj	by	6
-10	on	on	prep	girl	9
-11	a	a	det	beach	12
-12	beach	beach	pobj	on	10
-
-# sent_id = 3080_A
-# text = Broccoli is being chopped by a woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Broccoli	Broccoli	nsubjpass	chopped	4
-2	is	be	aux	chopped	4
-3	being	be	auxpass	chopped	4
-4	chopped	chop	ROOT	chopped	4
-5	by	by	agent	chopped	4
-6	a	a	det	woman	7
-7	woman	woman	pobj	by	5
-
-# sent_id = 3080_B
-# text = A woman is chopping broccoli
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	woman	2
-2	woman	woman	nsubj	chopping	4
-3	is	be	aux	chopping	4
-4	chopping	chop	ROOT	chopping	4
-5	broccoli	broccoli	dobj	chopping	4
-
-# sent_id = 6116_A
-# text = A black and white dog is holding a baseball in its mouth
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	dog	5
-2	black	black	amod	dog	5
-3	and	and	cc	black	2
-4	white	white	conj	black	2
-5	dog	dog	nsubj	holding	7
-6	is	be	aux	holding	7
-7	holding	hold	ROOT	holding	7
-8	a	a	det	baseball	9
-9	baseball	baseball	dobj	holding	7
-10	in	in	prep	holding	7
-11	its	its	poss	mouth	12
-12	mouth	mouth	pobj	in	10
-
-# sent_id = 6116_B
-# text = A baseball is being held in its mouth by a black and white dog
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	baseball	2
-2	baseball	baseball	nsubjpass	held	5
-3	is	be	aux	held	5
-4	being	be	auxpass	held	5
-5	held	hold	ROOT	held	5
-6	in	in	prep	held	5
-7	its	its	poss	mouth	8
-8	mouth	mouth	pobj	in	6
-9	by	by	agent	held	5
-10	a	a	det	dog	14
-11	black	black	amod	dog	14
-12	and	and	cc	black	11
-13	white	white	conj	black	11
-14	dog	dog	pobj	by	9
-
-# sent_id = 1558_A
-# text = A man is picking up a tree
+# sent_id = 391_A
+# text = A man with paint covered clothes is sitting outside in a busy area writing something
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 1	A	a	det	man	2
-2	man	man	nsubj	picking	4
-3	is	be	aux	picking	4
-4	picking	pick	ROOT	picking	4
-5	up	up	prt	picking	4
-6	a	a	det	tree	7
-7	tree	tree	dobj	picking	4
+2	man	man	nsubj	sitting	8
+3	with	with	prep	man	2
+4	paint	paint	npadvmod	covered	5
+5	covered	cover	amod	clothes	6
+6	clothes	clothe	pobj	with	3
+7	is	be	aux	sitting	8
+8	sitting	sit	ROOT	sitting	8
+9	outside	outside	advmod	sitting	8
+10	in	in	prep	sitting	8
+11	a	a	det	area	13
+12	busy	busy	amod	area	13
+13	area	area	pobj	in	10
+14	writing	write	acl	area	13
+15	something	something	dobj	writing	14
 
-# sent_id = 1558_B
-# text = A tree is being picked up by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	tree	2
-2	tree	tree	nsubjpass	picked	5
-3	is	be	aux	picked	5
-4	being	be	auxpass	picked	5
-5	picked	pick	ROOT	picked	5
-6	up	up	prt	picked	5
-7	by	by	agent	picked	5
-8	a	a	det	man	9
-9	man	man	pobj	by	7
-
-# sent_id = 5633_A
-# text = The guitar is being played by a kid
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	guitar	2
-2	guitar	guitar	nsubjpass	played	5
-3	is	be	aux	played	5
-4	being	be	auxpass	played	5
-5	played	play	ROOT	played	5
-6	by	by	agent	played	5
-7	a	a	det	kid	8
-8	kid	kid	pobj	by	6
-
-# sent_id = 5633_B
-# text = A kid is playing the guitar
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	kid	2
-2	kid	kid	nsubj	playing	4
-3	is	be	aux	playing	4
-4	playing	play	ROOT	playing	4
-5	the	the	det	guitar	6
-6	guitar	guitar	dobj	playing	4
-
-# sent_id = 5075_A
-# text = A man is playing the piano
+# sent_id = 391_B
+# text = A man is wearing clothes that are covered with paint and is sitting outside in a busy area writing something
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 1	A	a	det	man	2
-2	man	man	nsubj	playing	4
-3	is	be	aux	playing	4
-4	playing	play	ROOT	playing	4
-5	the	the	det	piano	6
-6	piano	piano	dobj	playing	4
+2	man	man	nsubj	wearing	4
+3	is	be	aux	wearing	4
+4	wearing	wear	ROOT	wearing	4
+5	clothes	clothe	dobj	wearing	4
+6	that	that	nsubjpass	covered	8
+7	are	be	auxpass	covered	8
+8	covered	cover	relcl	clothes	5
+9	with	with	prep	covered	8
+10	paint	paint	pobj	with	9
+11	and	and	cc	covered	8
+12	is	be	aux	sitting	13
+13	sitting	sit	conj	covered	8
+14	outside	outside	advmod	sitting	13
+15	in	in	prep	sitting	13
+16	a	a	det	area	18
+17	busy	busy	amod	area	18
+18	area	area	pobj	in	15
+19	writing	write	acl	area	18
+20	something	something	dobj	writing	19
 
-# sent_id = 5075_B
-# text = The piano is being played by a man
+# sent_id = 642_A
+# text = A person is climbing a rock with a rope, which is pink
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	piano	2
-2	piano	piano	nsubjpass	played	5
-3	is	be	aux	played	5
-4	being	be	auxpass	played	5
-5	played	play	ROOT	played	5
-6	by	by	agent	played	5
-7	a	a	det	man	8
-8	man	man	pobj	by	6
+1	A	a	det	person	2
+2	person	person	nsubj	climbing	4
+3	is	be	aux	climbing	4
+4	climbing	climb	ROOT	climbing	4
+5	a	a	det	rock	6
+6	rock	rock	dobj	climbing	4
+7	with	with	prep	rock	6
+8	a	a	det	rope	9
+9	rope	rope	pobj	with	7
+10	,	,	punct	rope	9
+11	which	which	nsubj	is	12
+12	is	be	relcl	rope	9
+13	pink	pink	acomp	is	12
 
-# sent_id = 2053_A
-# text = Some meat is being cut into pieces by a woman
+# sent_id = 642_B
+# text = A rock is being climbed by a person with a rope, which is pink
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Some	some	det	meat	2
-2	meat	meat	nsubjpass	cut	5
-3	is	be	aux	cut	5
-4	being	be	auxpass	cut	5
-5	cut	cut	ROOT	cut	5
-6	into	into	prep	cut	5
-7	pieces	piece	pobj	into	6
-8	by	by	agent	cut	5
-9	a	a	det	woman	10
-10	woman	woman	pobj	by	8
+1	A	a	det	rock	2
+2	rock	rock	nsubjpass	climbed	5
+3	is	be	aux	climbed	5
+4	being	be	auxpass	climbed	5
+5	climbed	climb	ROOT	climbed	5
+6	by	by	agent	climbed	5
+7	a	a	det	person	8
+8	person	person	pobj	by	6
+9	with	with	prep	person	8
+10	a	a	det	rope	11
+11	rope	rope	pobj	with	9
+12	,	,	punct	rope	11
+13	which	which	nsubj	is	14
+14	is	be	relcl	rope	11
+15	pink	pink	acomp	is	14
 
-# sent_id = 2053_B
-# text = A woman is cutting some meat into pieces
+# sent_id = 947_A
+# text = Some corndogs are being eaten by two toddlers who are in a wagon, which is really small
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	woman	2
-2	woman	woman	nsubj	cutting	4
-3	is	be	aux	cutting	4
-4	cutting	cut	ROOT	cutting	4
-5	some	some	det	meat	6
-6	meat	meat	dobj	cutting	4
-7	into	into	prep	cutting	4
-8	pieces	piece	pobj	into	7
+1	Some	some	det	corndogs	2
+2	corndogs	corndog	nsubjpass	eaten	5
+3	are	be	aux	eaten	5
+4	being	be	auxpass	eaten	5
+5	eaten	eat	ROOT	eaten	5
+6	by	by	agent	eaten	5
+7	two	two	nummod	toddlers	8
+8	toddlers	toddler	pobj	by	6
+9	who	who	nsubj	are	10
+10	are	be	relcl	toddlers	8
+11	in	in	prep	are	10
+12	a	a	det	wagon	13
+13	wagon	wagon	pobj	in	11
+14	,	,	punct	wagon	13
+15	which	which	nsubj	is	16
+16	is	be	relcl	wagon	13
+17	really	really	advmod	small	18
+18	small	small	acomp	is	16
 
-# sent_id = 1743_A
-# text = A man is pushing the buttons of a microwave
+# sent_id = 947_B
+# text = Two toddlers are eating corndogs in a wagon, which is really small
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	pushing	4
-3	is	be	aux	pushing	4
-4	pushing	push	ROOT	pushing	4
-5	the	the	det	buttons	6
-6	buttons	button	dobj	pushing	4
-7	of	of	prep	buttons	6
-8	a	a	det	microwave	9
-9	microwave	microwave	pobj	of	7
-
-# sent_id = 1743_B
-# text = The buttons of a microwave are being pushed by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	buttons	2
-2	buttons	button	nsubjpass	pushed	8
-3	of	of	prep	buttons	2
-4	a	a	det	microwave	5
-5	microwave	microwave	pobj	of	3
-6	are	be	aux	pushed	8
-7	being	be	auxpass	pushed	8
-8	pushed	push	ROOT	pushed	8
-9	by	by	agent	pushed	8
-10	a	a	det	man	11
-11	man	man	pobj	by	9
+1	Two	two	nummod	toddlers	2
+2	toddlers	toddler	nsubj	eating	4
+3	are	be	aux	eating	4
+4	eating	eat	ROOT	eating	4
+5	corndogs	corndog	dobj	eating	4
+6	in	in	prep	corndogs	5
+7	a	a	det	wagon	8
+8	wagon	wagon	pobj	in	6
+9	,	,	punct	wagon	8
+10	which	which	nsubj	is	11
+11	is	be	relcl	wagon	8
+12	really	really	advmod	small	13
+13	small	small	acomp	is	11
 
 # sent_id = 1071_A
 # text = A pink shirt with white writing on it is being worn by a girl who is lying in the grass
@@ -238,7 +150,7 @@ pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 5	a	a	det	shirt	7
 6	pink	pink	amod	shirt	7
 7	shirt	shirt	dobj	wearing	4
-8	with	with	prep	shirt	7
+8	with	with	prep	wearing	4
 9	white	white	amod	writing	10
 10	writing	writing	pobj	with	8
 11	on	on	prep	writing	10
@@ -250,18 +162,662 @@ pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 17	the	the	det	grass	18
 18	grass	grass	pobj	in	16
 
-# sent_id = 5408_A
-# text = A baby is playing a guitar
+# sent_id = 1333_A
+# text = The woman is measuring the other woman
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	baby	2
-2	baby	baby	nsubj	playing	4
+1	The	the	det	woman	2
+2	woman	woman	nsubj	measuring	4
+3	is	be	aux	measuring	4
+4	measuring	measure	ROOT	measuring	4
+5	the	the	det	woman	7
+6	other	other	amod	woman	7
+7	woman	woman	dobj	measuring	4
+
+# sent_id = 1333_B
+# text = A woman is being measured by another woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubjpass	measured	5
+3	is	be	aux	measured	5
+4	being	be	auxpass	measured	5
+5	measured	measure	ROOT	measured	5
+6	by	by	agent	measured	5
+7	another	another	det	woman	8
+8	woman	woman	pobj	by	6
+
+# sent_id = 1378_A
+# text = A steak is being rinsed with water by a person
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	steak	2
+2	steak	steak	nsubjpass	rinsed	5
+3	is	be	aux	rinsed	5
+4	being	be	auxpass	rinsed	5
+5	rinsed	rinse	ROOT	rinsed	5
+6	with	with	prep	rinsed	5
+7	water	water	pobj	with	6
+8	by	by	agent	rinsed	5
+9	a	a	det	person	10
+10	person	person	pobj	by	8
+
+# sent_id = 1378_B
+# text = A person is rinsing a steak with water
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	person	2
+2	person	person	nsubj	rinsing	4
+3	is	be	aux	rinsing	4
+4	rinsing	rinse	ROOT	rinsing	4
+5	a	a	det	steak	6
+6	steak	steak	dobj	rinsing	4
+7	with	with	prep	steak	6
+8	water	water	pobj	with	7
+
+# sent_id = 1484_A
+# text = The oil is being stirred by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	oil	2
+2	oil	oil	nsubjpass	stirred	5
+3	is	be	aux	stirred	5
+4	being	be	auxpass	stirred	5
+5	stirred	stir	ROOT	stirred	5
+6	by	by	agent	stirred	5
+7	a	a	det	man	8
+8	man	man	pobj	by	6
+
+# sent_id = 1484_B
+# text = The man is stirring oil
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	man	2
+2	man	man	nsubj	stirring	4
+3	is	be	aux	stirring	4
+4	stirring	stir	ROOT	stirring	4
+5	oil	oil	dobj	stirring	4
+
+# sent_id = 1607_A
+# text = A snake is being fed a mouse by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	snake	2
+2	snake	snake	nsubjpass	fed	5
+3	is	be	aux	fed	5
+4	being	be	auxpass	fed	5
+5	fed	feed	ROOT	fed	5
+6	a	a	det	mouse	7
+7	mouse	mouse	dobj	fed	5
+8	by	by	agent	fed	5
+9	a	a	det	man	10
+10	man	man	pobj	by	8
+
+# sent_id = 1607_B
+# text = One man is feeding a mouse to the snake
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	One	one	nummod	man	2
+2	man	man	nsubj	feeding	4
+3	is	be	aux	feeding	4
+4	feeding	feed	ROOT	feeding	4
+5	a	a	det	mouse	6
+6	mouse	mouse	dobj	feeding	4
+7	to	to	prep	feeding	4
+8	the	the	det	snake	9
+9	snake	snake	pobj	to	7
+
+# sent_id = 1705_A
+# text = A frog is being held carelessly by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	frog	2
+2	frog	frog	nsubjpass	held	5
+3	is	be	aux	held	5
+4	being	be	auxpass	held	5
+5	held	hold	ROOT	held	5
+6	carelessly	carelessly	advmod	held	5
+7	by	by	agent	held	5
+8	a	a	det	man	9
+9	man	man	pobj	by	7
+
+# sent_id = 1705_B
+# text = A man is carelessly holding a frog
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	holding	5
+3	is	be	aux	holding	5
+4	carelessly	carelessly	advmod	holding	5
+5	holding	hold	ROOT	holding	5
+6	a	a	det	frog	7
+7	frog	frog	dobj	holding	5
+
+# sent_id = 1875_A
+# text = The food on the trays is being eaten by the kittens
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	food	2
+2	food	food	nsubjpass	eaten	8
+3	on	on	prep	food	2
+4	the	the	det	trays	5
+5	trays	tray	pobj	on	3
+6	is	be	aux	eaten	8
+7	being	be	auxpass	eaten	8
+8	eaten	eat	ROOT	eaten	8
+9	by	by	agent	eaten	8
+10	the	the	det	kittens	11
+11	kittens	kitten	pobj	by	9
+
+# sent_id = 1875_B
+# text = The kittens are eating the food on the trays
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	kittens	2
+2	kittens	kitten	nsubj	eating	4
+3	are	be	aux	eating	4
+4	eating	eat	ROOT	eating	4
+5	the	the	det	food	6
+6	food	food	dobj	eating	4
+7	on	on	prep	eating	4
+8	the	the	det	trays	9
+9	trays	tray	pobj	on	7
+
+# sent_id = 2273_A
+# text = A dog is biting a can
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	dog	2
+2	dog	dog	nsubj	biting	4
+3	is	be	aux	biting	4
+4	biting	bite	ROOT	biting	4
+5	a	a	dobj	biting	4
+6	can	can	punct	biting	4
+
+# sent_id = 2273_B
+# text = A can is being bitten by a dog
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	nsubjpass	bitten	5
+2	can	can	aux	bitten	5
+3	is	be	aux	bitten	5
+4	being	be	auxpass	bitten	5
+5	bitten	bite	ROOT	bitten	5
+6	by	by	agent	bitten	5
+7	a	a	det	dog	8
+8	dog	dog	pobj	by	6
+
+# sent_id = 2312_A
+# text = A camera is being hammered onto the nail by the man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	camera	2
+2	camera	camera	nsubjpass	hammered	5
+3	is	be	aux	hammered	5
+4	being	be	auxpass	hammered	5
+5	hammered	hammer	ROOT	hammered	5
+6	onto	onto	prep	hammered	5
+7	the	the	det	nail	8
+8	nail	nail	pobj	onto	6
+9	by	by	agent	hammered	5
+10	the	the	det	man	11
+11	man	man	pobj	by	9
+
+# sent_id = 2312_B
+# text = The man is hammering a nail with a camera
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	man	2
+2	man	man	nsubj	hammering	4
+3	is	be	aux	hammering	4
+4	hammering	hammer	ROOT	hammering	4
+5	a	a	det	nail	6
+6	nail	nail	dobj	hammering	4
+7	with	with	prep	hammering	4
+8	a	a	det	camera	9
+9	camera	camera	pobj	with	7
+
+# sent_id = 2346_A
+# text = A man is pouring a plate of shredded cheese into a pot of sauce
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	pouring	4
+3	is	be	aux	pouring	4
+4	pouring	pour	ROOT	pouring	4
+5	a	a	det	plate	6
+6	plate	plate	dobj	pouring	4
+7	of	of	prep	plate	6
+8	shredded	shred	amod	cheese	9
+9	cheese	cheese	pobj	of	7
+10	into	into	prep	pouring	4
+11	a	a	det	pot	12
+12	pot	pot	pobj	into	10
+13	of	of	prep	pot	12
+14	sauce	sauce	pobj	of	13
+
+# sent_id = 2346_B
+# text = A man is pouring a plate of cheese which is shredded into a pot of sauce
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	pouring	4
+3	is	be	aux	pouring	4
+4	pouring	pour	ROOT	pouring	4
+5	a	a	det	plate	6
+6	plate	plate	dobj	pouring	4
+7	of	of	prep	plate	6
+8	cheese	cheese	pobj	of	7
+9	which	which	nsubjpass	shredded	11
+10	is	be	auxpass	shredded	11
+11	shredded	shred	relcl	plate	6
+12	into	into	prep	shredded	11
+13	a	a	det	pot	14
+14	pot	pot	pobj	into	12
+15	of	of	prep	pot	14
+16	sauce	sauce	pobj	of	15
+
+# sent_id = 2379_A
+# text = A person is slicing a carrot into pieces
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	person	2
+2	person	person	nsubj	slicing	4
+3	is	be	aux	slicing	4
+4	slicing	slice	ROOT	slicing	4
+5	a	a	det	carrot	6
+6	carrot	carrot	dobj	slicing	4
+7	into	into	prep	slicing	4
+8	pieces	piece	pobj	into	7
+
+# sent_id = 2379_B
+# text = A carrot is being sliced into pieces by a person
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	carrot	2
+2	carrot	carrot	nsubjpass	sliced	5
+3	is	be	aux	sliced	5
+4	being	be	auxpass	sliced	5
+5	sliced	slice	ROOT	sliced	5
+6	into	into	prep	sliced	5
+7	pieces	piece	pobj	into	6
+8	by	by	agent	sliced	5
+9	a	a	det	person	10
+10	person	person	pobj	by	8
+
+# sent_id = 2684_A
+# text = A person is cutting a capsicum into pieces
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	person	2
+2	person	person	nsubj	cutting	4
+3	is	be	aux	cutting	4
+4	cutting	cut	ROOT	cutting	4
+5	a	a	det	capsicum	6
+6	capsicum	capsicum	dobj	cutting	4
+7	into	into	prep	cutting	4
+8	pieces	piece	pobj	into	7
+
+# sent_id = 2684_B
+# text = A capsicum is being cut into pieces by a person
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	capsicum	2
+2	capsicum	capsicum	nsubjpass	cut	5
+3	is	be	aux	cut	5
+4	being	be	auxpass	cut	5
+5	cut	cut	ROOT	cut	5
+6	into	into	prep	cut	5
+7	pieces	piece	pobj	into	6
+8	by	by	agent	cut	5
+9	a	a	det	person	10
+10	person	person	pobj	by	8
+
+# sent_id = 2704_A
+# text = Noodles are being boiled in water by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Noodles	noodle	nsubjpass	boiled	4
+2	are	be	aux	boiled	4
+3	being	be	auxpass	boiled	4
+4	boiled	boil	ROOT	boiled	4
+5	in	in	prep	boiled	4
+6	water	water	pobj	in	5
+7	by	by	agent	boiled	4
+8	a	a	det	woman	9
+9	woman	woman	pobj	by	7
+
+# sent_id = 2704_B
+# text = A woman is boiling noodles in water
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	boiling	4
+3	is	be	aux	boiling	4
+4	boiling	boil	ROOT	boiling	4
+5	noodles	noodle	dobj	boiling	4
+6	in	in	prep	boiling	4
+7	water	water	pobj	in	6
+
+# sent_id = 2892_A
+# text = The man is lifting weights
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	man	2
+2	man	man	nsubj	lifting	4
+3	is	be	aux	lifting	4
+4	lifting	lift	ROOT	lifting	4
+5	weights	weight	dobj	lifting	4
+
+# sent_id = 2892_B
+# text = Weights are being lifted by the man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Weights	weight	nsubjpass	lifted	4
+2	are	be	aux	lifted	4
+3	being	be	auxpass	lifted	4
+4	lifted	lift	ROOT	lifted	4
+5	by	by	agent	lifted	4
+6	the	the	det	man	7
+7	man	man	pobj	by	5
+
+# sent_id = 3053_A
+# text = A man is pouring oil into a skillet
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	pouring	4
+3	is	be	aux	pouring	4
+4	pouring	pour	ROOT	pouring	4
+5	oil	oil	dobj	pouring	4
+6	into	into	prep	pouring	4
+7	a	a	det	skillet	8
+8	skillet	skillet	pobj	into	6
+
+# sent_id = 3053_B
+# text = Oil is being poured into a skillet by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Oil	oil	nsubjpass	poured	4
+2	is	be	aux	poured	4
+3	being	be	auxpass	poured	4
+4	poured	pour	ROOT	poured	4
+5	into	into	prep	poured	4
+6	a	a	det	skillet	7
+7	skillet	skillet	pobj	into	5
+8	by	by	agent	poured	4
+9	a	a	det	man	10
+10	man	man	pobj	by	8
+
+# sent_id = 3080_A
+# text = Broccoli is being chopped by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Broccoli	Broccoli	nsubjpass	chopped	4
+2	is	be	aux	chopped	4
+3	being	be	auxpass	chopped	4
+4	chopped	chop	ROOT	chopped	4
+5	by	by	agent	chopped	4
+6	a	a	det	woman	7
+7	woman	woman	pobj	by	5
+
+# sent_id = 3080_B
+# text = A woman is chopping broccoli
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	chopping	4
+3	is	be	aux	chopping	4
+4	chopping	chop	ROOT	chopping	4
+5	broccoli	broccoli	dobj	chopping	4
+
+# sent_id = 3248_A
+# text = A woman is boiling eggs
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	is	3
+3	is	be	ROOT	is	3
+4	boiling	boil	amod	eggs	5
+5	eggs	egg	attr	is	3
+
+# sent_id = 3248_B
+# text = Eggs are being boiled by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Eggs	egg	nsubjpass	boiled	4
+2	are	be	aux	boiled	4
+3	being	be	auxpass	boiled	4
+4	boiled	boil	ROOT	boiled	4
+5	by	by	agent	boiled	4
+6	a	a	det	woman	7
+7	woman	woman	pobj	by	5
+
+# sent_id = 3288_A
+# text = A woman is grating carrots
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	grating	4
+3	is	be	aux	grating	4
+4	grating	grate	ROOT	grating	4
+5	carrots	carrot	dobj	grating	4
+
+# sent_id = 3288_B
+# text = Carrots are being grated by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Carrots	carrot	nsubjpass	grated	4
+2	are	be	aux	grated	4
+3	being	be	auxpass	grated	4
+4	grated	grate	ROOT	grated	4
+5	by	by	agent	grated	4
+6	a	a	det	woman	7
+7	woman	woman	pobj	by	5
+
+# sent_id = 3315_A
+# text = A woman is cooking a pork chop which is breaded
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	cooking	4
+3	is	be	aux	cooking	4
+4	cooking	cook	ROOT	cooking	4
+5	a	a	det	chop	7
+6	pork	pork	compound	chop	7
+7	chop	chop	dobj	cooking	4
+8	which	which	nsubjpass	breaded	10
+9	is	be	auxpass	breaded	10
+10	breaded	bread	relcl	chop	7
+
+# sent_id = 3315_B
+# text = A woman is cooking a breaded pork chop
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	cooking	4
+3	is	be	aux	cooking	4
+4	cooking	cook	ROOT	cooking	4
+5	a	a	det	chop	8
+6	breaded	bread	amod	chop	8
+7	pork	pork	compound	chop	8
+8	chop	chop	dobj	cooking	4
+
+# sent_id = 3404_A
+# text = A person is folding a tortilla
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	person	2
+2	person	person	nsubj	folding	4
+3	is	be	aux	folding	4
+4	folding	fold	ROOT	folding	4
+5	a	a	det	tortilla	6
+6	tortilla	tortilla	dobj	folding	4
+
+# sent_id = 3404_B
+# text = A tortilla is being folded by a person
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	tortilla	2
+2	tortilla	tortilla	nsubjpass	folded	5
+3	is	be	aux	folded	5
+4	being	be	auxpass	folded	5
+5	folded	fold	ROOT	folded	5
+6	by	by	agent	folded	5
+7	a	a	det	person	8
+8	person	person	pobj	by	6
+
+# sent_id = 3506_A
+# text = Garlic is being diced by the woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Garlic	Garlic	nsubjpass	diced	4
+2	is	be	aux	diced	4
+3	being	be	auxpass	diced	4
+4	diced	dice	ROOT	diced	4
+5	by	by	agent	diced	4
+6	the	the	det	woman	7
+7	woman	woman	pobj	by	5
+
+# sent_id = 3506_B
+# text = The woman is dicing garlic
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	woman	2
+2	woman	woman	nsubj	dicing	4
+3	is	be	aux	dicing	4
+4	dicing	dice	ROOT	dicing	4
+5	garlic	garlic	dobj	dicing	4
+
+# sent_id = 3536_A
+# text = Someone is cooking okra in a pan
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Someone	someone	nsubj	cooking	3
+2	is	be	aux	cooking	3
+3	cooking	cook	ROOT	cooking	3
+4	okra	okra	dobj	cooking	3
+5	in	in	prep	cooking	3
+6	a	a	det	pan	7
+7	pan	pan	pobj	in	5
+
+# sent_id = 3536_B
+# text = Okra is being cooked in a pan
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Okra	Okra	nsubjpass	cooked	4
+2	is	be	aux	cooked	4
+3	being	be	auxpass	cooked	4
+4	cooked	cook	ROOT	cooked	4
+5	in	in	prep	cooked	4
+6	a	a	det	pan	7
+7	pan	pan	pobj	in	5
+
+# sent_id = 3564_A
+# text = Paper is being cut with scissors
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Paper	paper	nsubjpass	cut	4
+2	is	be	aux	cut	4
+3	being	be	auxpass	cut	4
+4	cut	cut	ROOT	cut	4
+5	with	with	prep	cut	4
+6	scissors	scissor	pobj	with	5
+
+# sent_id = 3564_B
+# text = Someone is cutting some paper with scissors
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Someone	someone	nsubj	cutting	3
+2	is	be	aux	cutting	3
+3	cutting	cut	ROOT	cutting	3
+4	some	some	det	paper	5
+5	paper	paper	dobj	cutting	3
+6	with	with	prep	cutting	3
+7	scissors	scissor	pobj	with	6
+
+# sent_id = 3590_A
+# text = A man is playing the drum
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	playing	4
+3	is	be	aux	playing	4
+4	playing	play	ROOT	playing	4
+5	the	the	det	drum	6
+6	drum	drum	dobj	playing	4
+
+# sent_id = 3590_B
+# text = The drums are being played by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	drums	2
+2	drums	drum	nsubjpass	played	5
+3	are	be	aux	played	5
+4	being	be	auxpass	played	5
+5	played	play	ROOT	played	5
+6	by	by	agent	played	5
+7	a	a	det	man	8
+8	man	man	pobj	by	6
+
+# sent_id = 3626_A
+# text = Someone is dropping the meat into a pan
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Someone	someone	nsubj	dropping	3
+2	is	be	aux	dropping	3
+3	dropping	drop	ROOT	dropping	3
+4	the	the	det	meat	5
+5	meat	meat	dobj	dropping	3
+6	into	into	prep	dropping	3
+7	a	a	det	pan	8
+8	pan	pan	pobj	into	6
+
+# sent_id = 3626_B
+# text = The meat is being dropped into a pan
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	meat	2
+2	meat	meat	nsubjpass	dropped	5
+3	is	be	aux	dropped	5
+4	being	be	auxpass	dropped	5
+5	dropped	drop	ROOT	dropped	5
+6	into	into	prep	dropped	5
+7	a	a	det	pan	8
+8	pan	pan	pobj	into	6
+
+# sent_id = 3637_A
+# text = A frog is being handled by the woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	frog	2
+2	frog	frog	nsubjpass	handled	5
+3	is	be	aux	handled	5
+4	being	be	auxpass	handled	5
+5	handled	handle	ROOT	handled	5
+6	by	by	agent	handled	5
+7	the	the	det	woman	8
+8	woman	woman	pobj	by	6
+
+# sent_id = 3637_B
+# text = The woman is handling a frog
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	woman	2
+2	woman	woman	nsubj	handling	4
+3	is	be	aux	handling	4
+4	handling	handle	ROOT	handling	4
+5	a	a	det	frog	6
+6	frog	frog	dobj	handling	4
+
+# sent_id = 3657_A
+# text = A boy is filling a pitcher with water
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	boy	2
+2	boy	boy	nsubj	filling	4
+3	is	be	aux	filling	4
+4	filling	fill	ROOT	filling	4
+5	a	a	det	pitcher	6
+6	pitcher	pitcher	dobj	filling	4
+7	with	with	prep	filling	4
+8	water	water	pobj	with	7
+
+# sent_id = 3657_B
+# text = A pitcher is being filled with water by a boy
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	pitcher	2
+2	pitcher	pitcher	nsubjpass	filled	5
+3	is	be	aux	filled	5
+4	being	be	auxpass	filled	5
+5	filled	fill	ROOT	filled	5
+6	with	with	prep	filled	5
+7	water	water	pobj	with	6
+8	by	by	agent	filled	5
+9	a	a	det	boy	10
+10	boy	boy	pobj	by	8
+
+# sent_id = 3721_A
+# text = The person is slicing onions
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	person	2
+2	person	person	nsubj	slicing	4
+3	is	be	aux	slicing	4
+4	slicing	slice	ROOT	slicing	4
+5	onions	onion	dobj	slicing	4
+
+# sent_id = 3721_B
+# text = Onions are being sliced by the person
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Onions	onion	nsubjpass	sliced	4
+2	are	be	aux	sliced	4
+3	being	be	auxpass	sliced	4
+4	sliced	slice	ROOT	sliced	4
+5	by	by	agent	sliced	4
+6	the	the	det	person	7
+7	person	person	pobj	by	5
+
+# sent_id = 3743_A
+# text = A woman is playing a guitar
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	playing	4
 3	is	be	aux	playing	4
 4	playing	play	ROOT	playing	4
 5	a	a	det	guitar	6
 6	guitar	guitar	dobj	playing	4
 
-# sent_id = 5408_B
-# text = A guitar is being played by a baby
+# sent_id = 3743_B
+# text = A guitar is being played by a woman
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 1	A	a	det	guitar	2
 2	guitar	guitar	nsubjpass	played	5
@@ -269,36 +825,905 @@ pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 4	being	be	auxpass	played	5
 5	played	play	ROOT	played	5
 6	by	by	agent	played	5
-7	a	a	det	baby	8
-8	baby	baby	pobj	by	6
+7	a	a	det	woman	8
+8	woman	woman	pobj	by	6
 
-# sent_id = 4472_A
-# text = The content of a bowl is being mixed by a man
+# sent_id = 3761_A
+# text = A person is throwing a cat at the ceiling
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	content	2
-2	content	content	nsubjpass	mixed	8
-3	of	of	prep	content	2
-4	a	a	det	bowl	5
-5	bowl	bowl	pobj	of	3
-6	is	be	aux	mixed	8
-7	being	be	auxpass	mixed	8
-8	mixed	mix	ROOT	mixed	8
-9	by	by	agent	mixed	8
-10	a	a	det	man	11
-11	man	man	pobj	by	9
+1	A	a	det	person	2
+2	person	person	nsubj	throwing	4
+3	is	be	aux	throwing	4
+4	throwing	throw	ROOT	throwing	4
+5	a	a	det	cat	6
+6	cat	cat	dobj	throwing	4
+7	at	at	prep	throwing	4
+8	the	the	det	ceiling	9
+9	ceiling	ceiling	pobj	at	7
 
-# sent_id = 4472_B
-# text = A man is mixing the content of a bowl
+# sent_id = 3761_B
+# text = A cat is thrown at the ceiling by a person
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	cat	2
+2	cat	cat	nsubjpass	thrown	4
+3	is	be	auxpass	thrown	4
+4	thrown	throw	ROOT	thrown	4
+5	at	at	prep	thrown	4
+6	the	the	det	ceiling	7
+7	ceiling	ceiling	pobj	at	5
+8	by	by	agent	thrown	4
+9	a	a	det	person	10
+10	person	person	pobj	by	8
+
+# sent_id = 4025_A
+# text = A man is breaking tiles with his hands
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	breaking	4
+3	is	be	aux	breaking	4
+4	breaking	break	ROOT	breaking	4
+5	tiles	tile	dobj	breaking	4
+6	with	with	prep	breaking	4
+7	his	his	poss	hands	8
+8	hands	hand	pobj	with	6
+
+# sent_id = 4025_B
+# text = Tiles are being broken with his hands by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Tiles	tile	nsubjpass	broken	4
+2	are	be	aux	broken	4
+3	being	be	auxpass	broken	4
+4	broken	break	ROOT	broken	4
+5	with	with	prep	broken	4
+6	his	his	poss	hands	7
+7	hands	hand	pobj	with	5
+8	by	by	agent	broken	4
+9	a	a	det	man	10
+10	man	man	pobj	by	8
+
+# sent_id = 4109_A
+# text = A man is eating a pizza
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	eating	4
+3	is	be	aux	eating	4
+4	eating	eat	ROOT	eating	4
+5	a	a	det	pizza	6
+6	pizza	pizza	dobj	eating	4
+
+# sent_id = 4109_B
+# text = A pizza is being eaten by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	pizza	2
+2	pizza	pizza	nsubjpass	eaten	5
+3	is	be	aux	eaten	5
+4	being	be	auxpass	eaten	5
+5	eaten	eat	ROOT	eaten	5
+6	by	by	agent	eaten	5
+7	a	a	det	man	8
+8	man	man	pobj	by	6
+
+# sent_id = 4210_A
+# text = A woman is stroking a lemur
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	stroking	4
+3	is	be	aux	stroking	4
+4	stroking	stroke	ROOT	stroking	4
+5	a	a	det	lemur	6
+6	lemur	lemur	dobj	stroking	4
+
+# sent_id = 4210_B
+# text = A lemur is being stroked by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	lemur	2
+2	lemur	lemur	nsubjpass	stroked	5
+3	is	be	aux	stroked	5
+4	being	be	auxpass	stroked	5
+5	stroked	stroke	ROOT	stroked	5
+6	by	by	agent	stroked	5
+7	a	a	det	woman	8
+8	woman	woman	pobj	by	6
+
+# sent_id = 4398_A
+# text = A paper plate is being cut by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	plate	3
+2	paper	paper	compound	plate	3
+3	plate	plate	nsubjpass	cut	6
+4	is	be	aux	cut	6
+5	being	be	auxpass	cut	6
+6	cut	cut	ROOT	cut	6
+7	by	by	agent	cut	6
+8	a	a	det	man	9
+9	man	man	pobj	by	7
+
+# sent_id = 4398_B
+# text = A man is cutting a paper plate
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	cutting	4
+3	is	be	aux	cutting	4
+4	cutting	cut	ROOT	cutting	4
+5	a	a	det	plate	7
+6	paper	paper	compound	plate	7
+7	plate	plate	dobj	cutting	4
+
+# sent_id = 4499_A
+# text = The patient is being helped by the doctor
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	patient	2
+2	patient	patient	nsubjpass	helped	5
+3	is	be	aux	helped	5
+4	being	be	auxpass	helped	5
+5	helped	help	ROOT	helped	5
+6	by	by	agent	helped	5
+7	the	the	det	doctor	8
+8	doctor	doctor	pobj	by	6
+
+# sent_id = 4499_B
+# text = The doctor is helping the patient
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	doctor	2
+2	doctor	doctor	nsubj	helping	4
+3	is	be	aux	helping	4
+4	helping	help	ROOT	helping	4
+5	the	the	det	patient	6
+6	patient	patient	dobj	helping	4
+
+# sent_id = 4784_A
+# text = A soda is being opened and drunk by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	soda	2
+2	soda	soda	nsubjpass	opened	5
+3	is	be	aux	opened	5
+4	being	be	auxpass	opened	5
+5	opened	open	ROOT	opened	5
+6	and	and	cc	opened	5
+7	drunk	drunk	conj	opened	5
+8	by	by	agent	drunk	7
+9	a	a	det	woman	10
+10	woman	woman	pobj	by	8
+
+# sent_id = 4784_B
+# text = A woman is opening a soda and drinking it
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	opening	4
+3	is	be	aux	opening	4
+4	opening	open	ROOT	opening	4
+5	a	a	det	soda	6
+6	soda	soda	dobj	opening	4
+7	and	and	cc	opening	4
+8	drinking	drink	conj	opening	4
+9	it	it	dobj	drinking	8
+
+# sent_id = 4786_A
+# text = A woman is riding on an elephant
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	riding	4
+3	is	be	aux	riding	4
+4	riding	rid	ROOT	riding	4
+5	on	on	prep	riding	4
+6	an	an	det	elephant	7
+7	elephant	elephant	pobj	on	5
+
+# sent_id = 4786_B
+# text = An elephant is being ridden by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	An	an	det	elephant	2
+2	elephant	elephant	nsubjpass	ridden	5
+3	is	be	aux	ridden	5
+4	being	be	auxpass	ridden	5
+5	ridden	ride	ROOT	ridden	5
+6	by	by	agent	ridden	5
+7	a	a	det	woman	8
+8	woman	woman	pobj	by	6
+
+# sent_id = 4878_A
+# text = A man is mixing vegetables in a pot
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 1	A	a	det	man	2
 2	man	man	nsubj	mixing	4
 3	is	be	aux	mixing	4
 4	mixing	mix	ROOT	mixing	4
-5	the	the	det	content	6
-6	content	content	dobj	mixing	4
-7	of	of	prep	content	6
-8	a	a	det	bowl	9
-9	bowl	bowl	pobj	of	7
+5	vegetables	vegetable	dobj	mixing	4
+6	in	in	prep	mixing	4
+7	a	a	det	pot	8
+8	pot	pot	pobj	in	6
+
+# sent_id = 4878_B
+# text = Vegetables are being mixed in a pot by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Vegetables	vegetable	nsubjpass	mixed	4
+2	are	be	aux	mixed	4
+3	being	be	auxpass	mixed	4
+4	mixed	mix	ROOT	mixed	4
+5	in	in	prep	mixed	4
+6	a	a	det	pot	7
+7	pot	pot	pobj	in	5
+8	by	by	agent	mixed	4
+9	a	a	det	man	10
+10	man	man	pobj	by	8
+
+# sent_id = 4963_A
+# text = Garlic is being chopped by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Garlic	Garlic	nsubjpass	chopped	4
+2	is	be	aux	chopped	4
+3	being	be	auxpass	chopped	4
+4	chopped	chop	ROOT	chopped	4
+5	by	by	agent	chopped	4
+6	a	a	det	woman	7
+7	woman	woman	pobj	by	5
+
+# sent_id = 4963_B
+# text = A woman is chopping garlic
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	chopping	4
+3	is	be	aux	chopping	4
+4	chopping	chop	ROOT	chopping	4
+5	garlic	garlic	dobj	chopping	4
+
+# sent_id = 4981_A
+# text = Something is being fried by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Something	something	nsubjpass	fried	4
+2	is	be	aux	fried	4
+3	being	be	auxpass	fried	4
+4	fried	fry	ROOT	fried	4
+5	by	by	agent	fried	4
+6	a	a	det	woman	7
+7	woman	woman	pobj	by	5
+
+# sent_id = 4981_B
+# text = A woman is frying something
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	frying	4
+3	is	be	aux	frying	4
+4	frying	fry	ROOT	frying	4
+5	something	something	dobj	frying	4
+
+# sent_id = 5050_A
+# text = A door is being opened by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	door	2
+2	door	door	nsubjpass	opened	5
+3	is	be	aux	opened	5
+4	being	be	auxpass	opened	5
+5	opened	open	ROOT	opened	5
+6	by	by	agent	opened	5
+7	a	a	det	man	8
+8	man	man	pobj	by	6
+
+# sent_id = 5050_B
+# text = A man is opening a door
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	opening	4
+3	is	be	aux	opening	4
+4	opening	open	ROOT	opening	4
+5	a	a	det	door	6
+6	door	door	dobj	opening	4
+
+# sent_id = 5201_A
+# text = Some sticky goo is being pulled out of a bowl by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Some	some	det	goo	3
+2	sticky	sticky	amod	goo	3
+3	goo	goo	nsubjpass	pulled	6
+4	is	be	aux	pulled	6
+5	being	be	auxpass	pulled	6
+6	pulled	pull	ROOT	pulled	6
+7	out	out	prep	pulled	6
+8	of	of	prep	out	7
+9	a	a	det	bowl	10
+10	bowl	bowl	pobj	of	8
+11	by	by	agent	pulled	6
+12	a	a	det	woman	13
+13	woman	woman	pobj	by	11
+
+# sent_id = 5201_B
+# text = A woman is pulling some sticky goo out of a bowl
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	pulling	4
+3	is	be	aux	pulling	4
+4	pulling	pull	ROOT	pulling	4
+5	some	some	det	goo	7
+6	sticky	sticky	amod	goo	7
+7	goo	goo	dobj	pulling	4
+8	out	out	prep	pulling	4
+9	of	of	prep	out	8
+10	a	a	det	bowl	11
+11	bowl	bowl	pobj	of	9
+
+# sent_id = 5374_A
+# text = An octopus is being sliced by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	An	an	det	octopus	2
+2	octopus	octopus	nsubjpass	sliced	5
+3	is	be	aux	sliced	5
+4	being	be	auxpass	sliced	5
+5	sliced	slice	ROOT	sliced	5
+6	by	by	agent	sliced	5
+7	a	a	det	woman	8
+8	woman	woman	pobj	by	6
+
+# sent_id = 5374_B
+# text = A woman is slicing an octopus
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	slicing	4
+3	is	be	aux	slicing	4
+4	slicing	slice	ROOT	slicing	4
+5	an	an	det	octopus	6
+6	octopus	octopus	dobj	slicing	4
+
+# sent_id = 5399_A
+# text = Eggs are being cracked into a bowl by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Eggs	egg	nsubjpass	cracked	4
+2	are	be	aux	cracked	4
+3	being	be	auxpass	cracked	4
+4	cracked	crack	ROOT	cracked	4
+5	into	into	prep	cracked	4
+6	a	a	det	bowl	7
+7	bowl	bowl	pobj	into	5
+8	by	by	agent	cracked	4
+9	a	a	det	woman	10
+10	woman	woman	pobj	by	8
+
+# sent_id = 5399_B
+# text = A woman is cracking eggs into a bowl
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	cracking	4
+3	is	be	aux	cracking	4
+4	cracking	crack	ROOT	cracking	4
+5	eggs	egg	dobj	cracking	4
+6	into	into	prep	cracking	4
+7	a	a	det	bowl	8
+8	bowl	bowl	pobj	into	6
+
+# sent_id = 5401_A
+# text = A woman is placing skewers onto a rack
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	placing	4
+3	is	be	aux	placing	4
+4	placing	place	ROOT	placing	4
+5	skewers	skewer	dobj	placing	4
+6	onto	onto	prep	placing	4
+7	a	a	det	rack	8
+8	rack	rack	pobj	onto	6
+
+# sent_id = 5401_B
+# text = Skewers are being placed onto a rack by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Skewers	skewer	nsubjpass	placed	4
+2	are	be	aux	placed	4
+3	being	be	auxpass	placed	4
+4	placed	place	ROOT	placed	4
+5	onto	onto	prep	placed	4
+6	a	a	det	rack	7
+7	rack	rack	pobj	onto	5
+8	by	by	prep	rack	7
+9	a	a	det	woman	10
+10	woman	woman	pobj	by	8
+
+# sent_id = 5446_A
+# text = A woman is frying fish
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	frying	4
+3	is	be	aux	frying	4
+4	frying	fry	ROOT	frying	4
+5	fish	fish	dobj	frying	4
+
+# sent_id = 5446_B
+# text = Fish is being fried by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Fish	fish	nsubjpass	fried	4
+2	is	be	aux	fried	4
+3	being	be	auxpass	fried	4
+4	fried	fry	ROOT	fried	4
+5	by	by	agent	fried	4
+6	a	a	det	woman	7
+7	woman	woman	pobj	by	5
+
+# sent_id = 5464_A
+# text = Grass is being mowed by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Grass	Grass	nsubjpass	mowed	4
+2	is	be	aux	mowed	4
+3	being	be	auxpass	mowed	4
+4	mowed	mow	ROOT	mowed	4
+5	by	by	agent	mowed	4
+6	a	a	det	man	7
+7	man	man	pobj	by	5
+
+# sent_id = 5464_B
+# text = A man is mowing grass
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	mowing	4
+3	is	be	aux	mowing	4
+4	mowing	mow	ROOT	mowing	4
+5	grass	grass	dobj	mowing	4
+
+# sent_id = 5561_A
+# text = A horse is being ridden by a girl
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	horse	2
+2	horse	horse	nsubjpass	ridden	5
+3	is	be	aux	ridden	5
+4	being	be	auxpass	ridden	5
+5	ridden	ride	ROOT	ridden	5
+6	by	by	agent	ridden	5
+7	a	a	det	girl	8
+8	girl	girl	pobj	by	6
+
+# sent_id = 5561_B
+# text = A girl is riding a horse
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	girl	2
+2	girl	girl	nsubj	riding	4
+3	is	be	aux	riding	4
+4	riding	rid	ROOT	riding	4
+5	a	a	det	horse	6
+6	horse	horse	dobj	riding	4
+
+# sent_id = 5588_A
+# text = A cupcake is being eaten by a girl
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	cupcake	2
+2	cupcake	cupcake	nsubjpass	eaten	5
+3	is	be	aux	eaten	5
+4	being	be	auxpass	eaten	5
+5	eaten	eat	ROOT	eaten	5
+6	by	by	agent	eaten	5
+7	a	a	det	girl	8
+8	girl	girl	pobj	by	6
+
+# sent_id = 5588_B
+# text = A girl is eating a cupcake
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	girl	2
+2	girl	girl	nsubj	eating	4
+3	is	be	aux	eating	4
+4	eating	eat	ROOT	eating	4
+5	a	a	det	cupcake	6
+6	cupcake	cupcake	dobj	eating	4
+
+# sent_id = 5624_A
+# text = A chef is cleaning a bowl of soup
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	chef	2
+2	chef	chef	nsubj	cleaning	4
+3	is	be	aux	cleaning	4
+4	cleaning	clean	ROOT	cleaning	4
+5	a	a	det	bowl	6
+6	bowl	bowl	dobj	cleaning	4
+7	of	of	prep	bowl	6
+8	soup	soup	pobj	of	7
+
+# sent_id = 5624_B
+# text = A bowl of soup is being cleaned by a chef
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	bowl	2
+2	bowl	bowl	nsubjpass	cleaned	7
+3	of	of	prep	bowl	2
+4	soup	soup	pobj	of	3
+5	is	be	aux	cleaned	7
+6	being	be	auxpass	cleaned	7
+7	cleaned	clean	ROOT	cleaned	7
+8	by	by	agent	cleaned	7
+9	a	a	det	chef	10
+10	chef	chef	pobj	by	8
+
+# sent_id = 5642_A
+# text = Someone is stirring a pot of chili with a spoon
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Someone	someone	nsubj	stirring	3
+2	is	be	aux	stirring	3
+3	stirring	stir	ROOT	stirring	3
+4	a	a	det	pot	5
+5	pot	pot	dobj	stirring	3
+6	of	of	prep	pot	5
+7	chili	chili	pobj	of	6
+8	with	with	prep	pot	5
+9	a	a	det	spoon	10
+10	spoon	spoon	pobj	with	8
+
+# sent_id = 5642_B
+# text = A pot of chili is being stirred by someone with a spoon
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	pot	2
+2	pot	pot	nsubjpass	stirred	7
+3	of	of	prep	pot	2
+4	chili	chili	pobj	of	3
+5	is	be	aux	stirred	7
+6	being	be	auxpass	stirred	7
+7	stirred	stir	ROOT	stirred	7
+8	by	by	agent	stirred	7
+9	someone	someone	pobj	by	8
+10	with	with	prep	someone	9
+11	a	a	det	spoon	12
+12	spoon	spoon	pobj	with	10
+
+# sent_id = 5696_A
+# text = Some cheese is being put on a pizza by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Some	some	det	cheese	2
+2	cheese	cheese	nsubjpass	put	5
+3	is	be	aux	put	5
+4	being	be	auxpass	put	5
+5	put	put	ROOT	put	5
+6	on	on	prep	put	5
+7	a	a	det	pizza	8
+8	pizza	pizza	pobj	on	6
+9	by	by	agent	put	5
+10	a	a	det	man	11
+11	man	man	pobj	by	9
+
+# sent_id = 5696_B
+# text = A man is putting some cheese on a pizza
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	putting	4
+3	is	be	aux	putting	4
+4	putting	put	ROOT	putting	4
+5	some	some	det	cheese	6
+6	cheese	cheese	dobj	putting	4
+7	on	on	prep	putting	4
+8	a	a	det	pizza	9
+9	pizza	pizza	pobj	on	7
+
+# sent_id = 5788_A
+# text = A fish is being cut by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	fish	2
+2	fish	fish	nsubjpass	cut	5
+3	is	be	aux	cut	5
+4	being	be	auxpass	cut	5
+5	cut	cut	ROOT	cut	5
+6	by	by	agent	cut	5
+7	a	a	det	man	8
+8	man	man	pobj	by	6
+
+# sent_id = 5788_B
+# text = A man is cutting a fish
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	cutting	4
+3	is	be	aux	cutting	4
+4	cutting	cut	ROOT	cutting	4
+5	a	a	det	fish	6
+6	fish	fish	dobj	cutting	4
+
+# sent_id = 5790_A
+# text = A man is slicing a fish
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	slicing	4
+3	is	be	aux	slicing	4
+4	slicing	slice	ROOT	slicing	4
+5	a	a	det	fish	6
+6	fish	fish	dobj	slicing	4
+
+# sent_id = 5790_B
+# text = A fish is being sliced by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	fish	2
+2	fish	fish	nsubjpass	sliced	5
+3	is	be	aux	sliced	5
+4	being	be	auxpass	sliced	5
+5	sliced	slice	ROOT	sliced	5
+6	by	by	agent	sliced	5
+7	a	a	det	man	8
+8	man	man	pobj	by	6
+
+# sent_id = 5824_A
+# text = A guitar is being played by a girl
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	guitar	2
+2	guitar	guitar	nsubjpass	played	5
+3	is	be	aux	played	5
+4	being	be	auxpass	played	5
+5	played	play	ROOT	played	5
+6	by	by	agent	played	5
+7	a	a	det	girl	8
+8	girl	girl	pobj	by	6
+
+# sent_id = 5824_B
+# text = A girl is playing a guitar
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	girl	2
+2	girl	girl	nsubj	playing	4
+3	is	be	aux	playing	4
+4	playing	play	ROOT	playing	4
+5	a	a	det	guitar	6
+6	guitar	guitar	dobj	playing	4
+
+# sent_id = 5835_A
+# text = A man is riding a motorcycle
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	riding	4
+3	is	be	aux	riding	4
+4	riding	rid	ROOT	riding	4
+5	a	a	det	motorcycle	6
+6	motorcycle	motorcycle	dobj	riding	4
+
+# sent_id = 5835_B
+# text = A motorcycle is being ridden by a man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	motorcycle	2
+2	motorcycle	motorcycle	nsubjpass	ridden	5
+3	is	be	aux	ridden	5
+4	being	be	auxpass	ridden	5
+5	ridden	ride	ROOT	ridden	5
+6	by	by	agent	ridden	5
+7	a	a	det	man	8
+8	man	man	pobj	by	6
+
+# sent_id = 5905_A
+# text = Ingredients are being poured into a bowl by a woman
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Ingredients	ingredient	nsubjpass	poured	4
+2	are	be	aux	poured	4
+3	being	be	auxpass	poured	4
+4	poured	pour	ROOT	poured	4
+5	into	into	prep	poured	4
+6	a	a	det	bowl	7
+7	bowl	bowl	pobj	into	5
+8	by	by	agent	poured	4
+9	a	a	det	woman	10
+10	woman	woman	pobj	by	8
+
+# sent_id = 5905_B
+# text = A woman is pouring ingredients into a bowl
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	pouring	4
+3	is	be	aux	pouring	4
+4	pouring	pour	ROOT	pouring	4
+5	ingredients	ingredient	dobj	pouring	4
+6	into	into	prep	pouring	4
+7	a	a	det	bowl	8
+8	bowl	bowl	pobj	into	6
+
+# sent_id = 6355_A
+# text = A woman in a red dress is playing an instrument
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	woman	2
+2	woman	woman	nsubj	playing	8
+3	in	in	prep	woman	2
+4	a	a	det	dress	6
+5	red	red	amod	dress	6
+6	dress	dress	pobj	in	3
+7	is	be	aux	playing	8
+8	playing	play	ROOT	playing	8
+9	an	an	det	instrument	10
+10	instrument	instrument	dobj	playing	8
+
+# sent_id = 6355_B
+# text = An instrument is being played by a woman in a red dress
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	An	an	det	instrument	2
+2	instrument	instrument	nsubjpass	played	5
+3	is	be	aux	played	5
+4	being	be	auxpass	played	5
+5	played	play	ROOT	played	5
+6	by	by	agent	played	5
+7	a	a	det	woman	8
+8	woman	woman	pobj	by	6
+9	in	in	prep	played	5
+10	a	a	det	dress	12
+11	red	red	amod	dress	12
+12	dress	dress	pobj	in	9
+
+# sent_id = 6495_A
+# text = The man is taking a picture of himself and another guy
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	man	2
+2	man	man	nsubj	taking	4
+3	is	be	aux	taking	4
+4	taking	take	ROOT	taking	4
+5	a	a	det	picture	6
+6	picture	picture	dobj	taking	4
+7	of	of	prep	picture	6
+8	himself	himself	pobj	of	7
+9	and	and	cc	himself	8
+10	another	another	det	guy	11
+11	guy	guy	dobj	taking	4
+
+# sent_id = 6495_B
+# text = A picture of himself and another guy is being taken by the man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	picture	2
+2	picture	picture	nsubjpass	taken	10
+3	of	of	prep	picture	2
+4	himself	himself	pobj	of	3
+5	and	and	cc	picture	2
+6	another	another	det	guy	7
+7	guy	guy	nsubjpass	taken	10
+8	is	be	aux	taken	10
+9	being	be	auxpass	taken	10
+10	taken	take	ROOT	taken	10
+11	by	by	agent	taken	10
+12	the	the	det	man	13
+13	man	man	pobj	by	11
+
+# sent_id = 6515_A
+# text = A girl in a brown dress is being surrounded by children and is closing her eyes
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	girl	2
+2	girl	girl	nsubjpass	surrounded	9
+3	in	in	prep	girl	2
+4	a	a	det	dress	6
+5	brown	brown	amod	dress	6
+6	dress	dress	pobj	in	3
+7	is	be	aux	surrounded	9
+8	being	be	auxpass	surrounded	9
+9	surrounded	surround	ROOT	surrounded	9
+10	by	by	agent	surrounded	9
+11	children	child	pobj	by	10
+12	and	and	cc	surrounded	9
+13	is	be	aux	closing	14
+14	closing	close	conj	surrounded	9
+15	her	her	poss	eyes	16
+16	eyes	eye	dobj	closing	14
+
+# sent_id = 6515_B
+# text = Children are surrounding a girl in a brown dress who is closing her eyes
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Children	child	nsubj	surrounding	3
+2	are	be	aux	surrounding	3
+3	surrounding	surround	ROOT	surrounding	3
+4	a	a	det	girl	5
+5	girl	girl	dobj	surrounding	3
+6	in	in	prep	surrounding	3
+7	a	a	det	dress	9
+8	brown	brown	amod	dress	9
+9	dress	dress	pobj	in	6
+10	who	who	nsubj	closing	12
+11	is	be	aux	closing	12
+12	closing	close	relcl	dress	9
+13	her	her	poss	eyes	14
+14	eyes	eye	dobj	closing	12
+
+# sent_id = 6727_A
+# text = A child is making a snow ball
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	child	2
+2	child	child	nsubj	making	4
+3	is	be	aux	making	4
+4	making	make	ROOT	making	4
+5	a	a	det	ball	7
+6	snow	snow	compound	ball	7
+7	ball	ball	dobj	making	4
+
+# sent_id = 6727_B
+# text = A snow ball is being made by a child
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	ball	3
+2	snow	snow	compound	ball	3
+3	ball	ball	nsubjpass	made	6
+4	is	be	aux	made	6
+5	being	be	auxpass	made	6
+6	made	make	ROOT	made	6
+7	by	by	agent	made	6
+8	a	a	det	child	9
+9	child	child	pobj	by	7
+
+# sent_id = 6785_A
+# text = A man is holding a mask in his raised hand
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	man	2
+2	man	man	nsubj	holding	4
+3	is	be	aux	holding	4
+4	holding	hold	ROOT	holding	4
+5	a	a	det	mask	6
+6	mask	mask	dobj	holding	4
+7	in	in	prep	holding	4
+8	his	his	poss	hand	10
+9	raised	raise	amod	hand	10
+10	hand	hand	pobj	in	7
+
+# sent_id = 6785_B
+# text = A mask is being held by a man in his raised hand
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	mask	2
+2	mask	mask	nsubjpass	held	5
+3	is	be	aux	held	5
+4	being	be	auxpass	held	5
+5	held	hold	ROOT	held	5
+6	by	by	agent	held	5
+7	a	a	det	man	8
+8	man	man	pobj	by	6
+9	in	in	prep	man	8
+10	his	his	poss	hand	12
+11	raised	raise	amod	hand	12
+12	hand	hand	pobj	in	9
+
+# sent_id = 6957_A
+# text = Music is being performed by four people outdoors
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Music	music	nsubjpass	performed	4
+2	is	be	aux	performed	4
+3	being	be	auxpass	performed	4
+4	performed	perform	ROOT	performed	4
+5	by	by	agent	performed	4
+6	four	four	nummod	people	7
+7	people	people	pobj	by	5
+8	outdoors	outdoors	advmod	performed	4
+
+# sent_id = 6957_B
+# text = Four people are performing music outdoors
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Four	four	nummod	people	2
+2	people	people	nsubj	performing	4
+3	are	be	aux	performing	4
+4	performing	perform	ROOT	performing	4
+5	music	music	dobj	performing	4
+6	outdoors	outdoors	advmod	performing	4
+
+# sent_id = 6997_A
+# text = An opponent is tackling a soccer player
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	An	an	det	opponent	2
+2	opponent	opponent	nsubj	tackling	4
+3	is	be	aux	tackling	4
+4	tackling	tackle	ROOT	tackling	4
+5	a	a	det	player	7
+6	soccer	soccer	compound	player	7
+7	player	player	dobj	tackling	4
+
+# sent_id = 6997_B
+# text = A soccer player is being tackled by his opponent
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	player	3
+2	soccer	soccer	compound	player	3
+3	player	player	nsubjpass	tackled	6
+4	is	be	aux	tackled	6
+5	being	be	auxpass	tackled	6
+6	tackled	tackle	ROOT	tackled	6
+7	by	by	agent	tackled	6
+8	his	his	poss	opponent	9
+9	opponent	opponent	pobj	by	7
+
+# sent_id = 7035_A
+# text = The motocross rider is wearing blue and black pants
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	rider	3
+2	motocross	motocross	compound	rider	3
+3	rider	rider	nsubj	wearing	5
+4	is	be	aux	wearing	5
+5	wearing	wear	ROOT	wearing	5
+6	blue	blue	amod	pants	9
+7	and	and	cc	blue	6
+8	black	black	conj	blue	6
+9	pants	pant	dobj	wearing	5
+
+# sent_id = 7035_B
+# text = Blue and black pants are being worn by the motocross rider
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Blue	blue	amod	pants	4
+2	and	and	cc	Blue	1
+3	black	black	conj	Blue	1
+4	pants	pant	nsubjpass	worn	7
+5	are	be	aux	worn	7
+6	being	be	auxpass	worn	7
+7	worn	wear	ROOT	worn	7
+8	by	by	agent	worn	7
+9	the	the	det	rider	11
+10	motocross	motocross	compound	rider	11
+11	rider	rider	pobj	by	8
 
 # sent_id = 7215_A
 # text = A colored toy is being carried by a brown dog in the grass
@@ -332,153 +1757,164 @@ pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 10	the	the	det	grass	11
 11	grass	grass	pobj	in	9
 
-# sent_id = 6804_A
-# text = A man is wearing a sports uniform and is running down the field
+# sent_id = 7233_A
+# text = A ball is being caught by a dog in mid air
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	ball	2
+2	ball	ball	nsubjpass	caught	5
+3	is	be	aux	caught	5
+4	being	be	auxpass	caught	5
+5	caught	catch	ROOT	caught	5
+6	by	by	agent	caught	5
+7	a	a	det	dog	8
+8	dog	dog	pobj	by	6
+9	in	in	prep	dog	8
+10	mid	mid	amod	air	11
+11	air	air	pobj	in	9
+
+# sent_id = 7233_B
+# text = A dog is catching a ball in mid air
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	dog	2
+2	dog	dog	nsubj	catching	4
+3	is	be	aux	catching	4
+4	catching	catch	ROOT	catching	4
+5	a	a	det	ball	6
+6	ball	ball	dobj	catching	4
+7	in	in	prep	ball	6
+8	mid	mid	amod	air	9
+9	air	air	pobj	in	7
+
+# sent_id = 7311_A
+# text = A cigarette is being smoked by the man in the straw hat
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	cigarette	2
+2	cigarette	cigarette	nsubjpass	smoked	5
+3	is	be	aux	smoked	5
+4	being	be	auxpass	smoked	5
+5	smoked	smoke	ROOT	smoked	5
+6	by	by	agent	smoked	5
+7	the	the	det	man	8
+8	man	man	pobj	by	6
+9	in	in	prep	man	8
+10	the	the	det	hat	12
+11	straw	straw	compound	hat	12
+12	hat	hat	pobj	in	9
+
+# sent_id = 7311_B
+# text = A man is wearing a straw hat and smoking a cigarette
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 1	A	a	det	man	2
 2	man	man	nsubj	wearing	4
 3	is	be	aux	wearing	4
 4	wearing	wear	ROOT	wearing	4
-5	a	a	det	uniform	7
-6	sports	sport	compound	uniform	7
-7	uniform	uniform	dobj	wearing	4
+5	a	a	det	hat	7
+6	straw	straw	compound	hat	7
+7	hat	hat	dobj	wearing	4
 8	and	and	cc	wearing	4
-9	is	be	aux	running	10
-10	running	run	conj	wearing	4
-11	down	down	prep	running	10
-12	the	the	det	field	13
-13	field	field	pobj	down	11
+9	smoking	smoke	conj	wearing	4
+10	a	a	det	cigarette	11
+11	cigarette	cigarette	dobj	smoking	9
 
-# sent_id = 6804_B
-# text = A sports uniform is being worn by a man who is running down the field
+# sent_id = 7416_A
+# text = A dog is chasing a ball on the grass
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	uniform	3
-2	sports	sport	compound	uniform	3
-3	uniform	uniform	nsubjpass	worn	6
-4	is	be	aux	worn	6
-5	being	be	auxpass	worn	6
-6	worn	wear	ROOT	worn	6
-7	by	by	agent	worn	6
-8	a	a	det	man	9
-9	man	man	pobj	by	7
-10	who	who	nsubj	running	12
-11	is	be	aux	running	12
-12	running	run	relcl	man	9
-13	down	down	prep	running	12
-14	the	the	det	field	15
-15	field	field	pobj	down	13
+1	A	a	det	dog	2
+2	dog	dog	nsubj	chasing	4
+3	is	be	aux	chasing	4
+4	chasing	chase	ROOT	chasing	4
+5	a	a	det	ball	6
+6	ball	ball	dobj	chasing	4
+7	on	on	prep	ball	6
+8	the	the	det	grass	9
+9	grass	grass	pobj	on	7
 
-# sent_id = 3836_A
-# text = A horse is being ridden in a creek by a man
+# sent_id = 7416_B
+# text = A ball is being chased by a dog on the grass
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	horse	2
-2	horse	horse	nsubjpass	ridden	5
+1	A	a	det	ball	2
+2	ball	ball	nsubjpass	chased	5
+3	is	be	aux	chased	5
+4	being	be	auxpass	chased	5
+5	chased	chase	ROOT	chased	5
+6	by	by	agent	chased	5
+7	a	a	det	dog	8
+8	dog	dog	pobj	by	6
+9	on	on	prep	dog	8
+10	the	the	det	grass	11
+11	grass	grass	pobj	on	9
+
+# sent_id = 7878_A
+# text = Three people are driving ATVs
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Three	three	nummod	people	2
+2	people	people	nsubj	driving	4
+3	are	be	aux	driving	4
+4	driving	drive	ROOT	driving	4
+5	ATVs	atv	dobj	driving	4
+
+# sent_id = 7878_B
+# text = ATVs are being driven by three people
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	ATVs	atv	nsubjpass	driven	4
+2	are	be	aux	driven	4
+3	being	be	auxpass	driven	4
+4	driven	drive	ROOT	driven	4
+5	by	by	agent	driven	4
+6	three	three	nummod	people	7
+7	people	people	pobj	by	5
+
+# sent_id = 8093_A
+# text = The little boy is riding a bicycle in a race
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	The	the	det	boy	3
+2	little	little	amod	boy	3
+3	boy	boy	nsubj	riding	5
+4	is	be	aux	riding	5
+5	riding	rid	ROOT	riding	5
+6	a	a	det	bicycle	7
+7	bicycle	bicycle	dobj	riding	5
+8	in	in	prep	riding	5
+9	a	a	det	race	10
+10	race	race	pobj	in	8
+
+# sent_id = 8093_B
+# text = A bicycle is being ridden by the little boy in a race
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	bicycle	2
+2	bicycle	bicycle	nsubjpass	ridden	5
 3	is	be	aux	ridden	5
 4	being	be	auxpass	ridden	5
 5	ridden	ride	ROOT	ridden	5
-6	in	in	prep	ridden	5
-7	a	a	det	creek	8
-8	creek	creek	pobj	in	6
-9	by	by	prep	creek	8
-10	a	a	det	man	11
-11	man	man	pobj	by	9
+6	by	by	agent	ridden	5
+7	the	the	det	boy	9
+8	little	little	amod	boy	9
+9	boy	boy	pobj	by	6
+10	in	in	prep	ridden	5
+11	a	a	det	race	12
+12	race	race	pobj	in	10
 
-# sent_id = 3836_B
-# text = The man is riding a horse by a creek
+# sent_id = 8100_A
+# text = Mud is covering a topless woman
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	man	2
-2	man	man	nsubj	riding	4
-3	is	be	aux	riding	4
-4	riding	rid	ROOT	riding	4
-5	a	a	det	horse	6
-6	horse	horse	dobj	riding	4
-7	by	by	prep	riding	4
-8	a	a	det	creek	9
-9	creek	creek	pobj	by	7
+1	Mud	Mud	nsubj	covering	3
+2	is	be	aux	covering	3
+3	covering	cover	ROOT	covering	3
+4	a	a	det	woman	6
+5	topless	topless	amod	woman	6
+6	woman	woman	dobj	covering	3
 
-# sent_id = 7357_A
-# text = A tower is being looked at by a blonde lady
+# sent_id = 8100_B
+# text = A topless woman is being covered in mud
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	tower	2
-2	tower	tower	nsubjpass	looked	5
-3	is	be	aux	looked	5
-4	being	be	auxpass	looked	5
-5	looked	look	ROOT	looked	5
-6	at	at	prep	looked	5
-7	by	by	agent	looked	5
-8	a	a	det	lady	10
-9	blonde	blonde	amod	lady	10
-10	lady	lady	pobj	by	7
-
-# sent_id = 7357_B
-# text = A blonde lady is looking at a tower
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	lady	3
-2	blonde	blonde	amod	lady	3
-3	lady	lady	nsubj	looking	5
-4	is	be	aux	looking	5
-5	looking	look	ROOT	looking	5
-6	at	at	prep	looking	5
-7	a	a	det	tower	8
-8	tower	tower	pobj	at	6
-
-# sent_id = 8894_A
-# text = Two people are riding motorbikes
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Two	two	nummod	people	2
-2	people	people	nsubj	riding	4
-3	are	be	aux	riding	4
-4	riding	rid	ROOT	riding	4
-5	motorbikes	motorbike	dobj	riding	4
-
-# sent_id = 8894_B
-# text = Motorbikes are being ridden by two people
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Motorbikes	motorbike	nsubjpass	ridden	4
-2	are	be	aux	ridden	4
-3	being	be	auxpass	ridden	4
-4	ridden	ride	ROOT	ridden	4
-5	by	by	agent	ridden	4
-6	two	two	nummod	people	7
-7	people	people	pobj	by	5
-
-# sent_id = 6201_A
-# text = A bicyclist is holding a bike over his head in a group of people
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	bicyclist	2
-2	bicyclist	bicyclist	nsubj	holding	4
-3	is	be	aux	holding	4
-4	holding	hold	ROOT	holding	4
-5	a	a	det	bike	6
-6	bike	bike	dobj	holding	4
-7	over	over	prep	holding	4
-8	his	his	poss	head	9
-9	head	head	pobj	over	7
-10	in	in	prep	holding	4
-11	a	a	det	group	12
-12	group	group	pobj	in	10
-13	of	of	prep	group	12
-14	people	people	pobj	of	13
-
-# sent_id = 6201_B
-# text = A bike is being held over his head by a bicyclist in a group of people
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	bike	2
-2	bike	bike	nsubjpass	held	5
-3	is	be	aux	held	5
-4	being	be	auxpass	held	5
-5	held	hold	ROOT	held	5
-6	over	over	prep	held	5
-7	his	his	poss	head	8
-8	head	head	pobj	over	6
-9	by	by	agent	held	5
-10	a	a	det	bicyclist	11
-11	bicyclist	bicyclist	pobj	by	9
-12	in	in	prep	bicyclist	11
-13	a	a	det	group	14
-14	group	group	pobj	in	12
-15	of	of	prep	group	14
-16	people	people	pobj	of	15
+1	A	a	det	woman	3
+2	topless	topless	amod	woman	3
+3	woman	woman	nsubjpass	covered	6
+4	is	be	aux	covered	6
+5	being	be	auxpass	covered	6
+6	covered	cover	ROOT	covered	6
+7	in	in	prep	covered	6
+8	mud	mud	pobj	in	7
 
 # sent_id = 8298_A
 # text = Sunglasses are being worn by a boy
@@ -500,64 +1936,97 @@ pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 4	wearing	wear	ROOT	wearing	4
 5	sunglasses	sunglass	dobj	wearing	4
 
-# sent_id = 531_A
-# text = A black helmet is being worn by a man who is pushing a bicycle
+# sent_id = 8525_A
+# text = A rainbow afghan is being held by a girl in gold and purple
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	helmet	3
-2	black	black	amod	helmet	3
-3	helmet	helmet	nsubjpass	worn	6
-4	is	be	aux	worn	6
-5	being	be	auxpass	worn	6
-6	worn	wear	ROOT	worn	6
-7	by	by	agent	worn	6
-8	a	a	det	man	9
-9	man	man	pobj	by	7
-10	who	who	nsubj	pushing	12
-11	is	be	aux	pushing	12
-12	pushing	push	relcl	man	9
-13	a	a	det	bicycle	14
-14	bicycle	bicycle	dobj	pushing	12
-
-# sent_id = 531_B
-# text = One man is wearing a black helmet and pushing a bicycle
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	One	one	nummod	man	2
-2	man	man	nsubj	wearing	4
-3	is	be	aux	wearing	4
-4	wearing	wear	ROOT	wearing	4
-5	a	a	det	helmet	7
-6	black	black	amod	helmet	7
-7	helmet	helmet	dobj	wearing	4
-8	and	and	cc	wearing	4
-9	pushing	push	conj	wearing	4
-10	a	a	det	bicycle	11
-11	bicycle	bicycle	dobj	pushing	9
-
-# sent_id = 7934_A
-# text = A fur scarf is being held by an Asian woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	scarf	3
-2	fur	fur	compound	scarf	3
-3	scarf	scarf	nsubjpass	held	6
+1	A	a	det	afghan	3
+2	rainbow	rainbow	compound	afghan	3
+3	afghan	afghan	nsubjpass	held	6
 4	is	be	aux	held	6
 5	being	be	auxpass	held	6
 6	held	hold	ROOT	held	6
 7	by	by	agent	held	6
-8	an	an	det	woman	10
-9	Asian	asian	amod	woman	10
-10	woman	woman	pobj	by	7
+8	a	a	det	girl	9
+9	girl	girl	pobj	by	7
+10	in	in	prep	girl	9
+11	gold	gold	pobj	in	10
+12	and	and	cc	gold	11
+13	purple	purple	conj	gold	11
 
-# sent_id = 7934_B
-# text = An Asian woman is holding a fur scarf
+# sent_id = 8525_B
+# text = A girl in gold and purple is holding a rainbow afghan
 pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	An	an	det	woman	3
-2	Asian	asian	amod	woman	3
-3	woman	woman	nsubj	holding	5
-4	is	be	aux	holding	5
-5	holding	hold	ROOT	holding	5
-6	a	a	det	scarf	8
-7	fur	fur	compound	scarf	8
-8	scarf	scarf	dobj	holding	5
+1	A	a	det	girl	2
+2	girl	girl	nsubj	holding	8
+3	in	in	prep	girl	2
+4	gold	gold	pobj	in	3
+5	and	and	cc	gold	4
+6	purple	purple	conj	gold	4
+7	is	be	aux	holding	8
+8	holding	hold	ROOT	holding	8
+9	a	a	det	afghan	11
+10	rainbow	rainbow	compound	afghan	11
+11	afghan	afghan	dobj	holding	8
+
+# sent_id = 8586_A
+# text = An Arabic man is wearing a white hat
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	An	an	det	man	3
+2	Arabic	arabic	amod	man	3
+3	man	man	nsubj	wearing	5
+4	is	be	aux	wearing	5
+5	wearing	wear	ROOT	wearing	5
+6	a	a	det	hat	8
+7	white	white	amod	hat	8
+8	hat	hat	dobj	wearing	5
+
+# sent_id = 8586_B
+# text = A white hat is being worn by an Arabic man
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	hat	3
+2	white	white	amod	hat	3
+3	hat	hat	nsubjpass	worn	6
+4	is	be	aux	worn	6
+5	being	be	auxpass	worn	6
+6	worn	wear	ROOT	worn	6
+7	by	by	agent	worn	6
+8	an	an	det	man	10
+9	Arabic	arabic	amod	man	10
+10	man	man	pobj	by	7
+
+# sent_id = 9087_A
+# text = A veteran is showing different things from a war to some people
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	A	a	det	veteran	2
+2	veteran	veteran	nsubj	showing	4
+3	is	be	aux	showing	4
+4	showing	show	ROOT	showing	4
+5	different	different	amod	things	6
+6	things	thing	dobj	showing	4
+7	from	from	prep	showing	4
+8	a	a	det	war	9
+9	war	war	pobj	from	7
+10	to	to	dative	showing	4
+11	some	some	det	people	12
+12	people	people	pobj	to	10
+
+# sent_id = 9087_B
+# text = Different things from a war are being shown to some people by a veteran
+pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
+1	Different	different	amod	things	2
+2	things	thing	nsubjpass	shown	8
+3	from	from	prep	things	2
+4	a	a	det	war	5
+5	war	war	pobj	from	3
+6	are	be	aux	shown	8
+7	being	be	auxpass	shown	8
+8	shown	show	ROOT	shown	8
+9	to	to	dative	shown	8
+10	some	some	det	people	11
+11	people	people	pobj	to	9
+12	by	by	agent	shown	8
+13	a	a	det	veteran	14
+14	veteran	veteran	pobj	by	12
 
 # sent_id = 9184_A
 # text = A ball is being chased by a yellow dog
@@ -582,999 +2051,4 @@ pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
 5	chasing	chase	ROOT	chasing	5
 6	a	a	det	ball	7
 7	ball	ball	dobj	chasing	5
-
-# sent_id = 4717_A
-# text = A monkey is kicking a person
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	monkey	2
-2	monkey	monkey	nsubj	kicking	4
-3	is	be	aux	kicking	4
-4	kicking	kick	ROOT	kicking	4
-5	a	a	det	person	6
-6	person	person	dobj	kicking	4
-
-# sent_id = 4717_B
-# text = A person is being kicked by a monkey
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	person	2
-2	person	person	nsubjpass	kicked	5
-3	is	be	aux	kicked	5
-4	being	be	auxpass	kicked	5
-5	kicked	kick	ROOT	kicked	5
-6	by	by	agent	kicked	5
-7	a	a	det	monkey	8
-8	monkey	monkey	pobj	by	6
-
-# sent_id = 140_A
-# text = The current is being ridden by a group of friends in a raft
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	current	2
-2	current	current	nsubjpass	ridden	5
-3	is	be	aux	ridden	5
-4	being	be	auxpass	ridden	5
-5	ridden	ride	ROOT	ridden	5
-6	by	by	agent	ridden	5
-7	a	a	det	group	8
-8	group	group	pobj	by	6
-9	of	of	prep	group	8
-10	friends	friend	pobj	of	9
-11	in	in	prep	ridden	5
-12	a	a	det	raft	13
-13	raft	raft	pobj	in	11
-
-# sent_id = 140_B
-# text = A group of friends are riding the current in a raft
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	group	2
-2	group	group	nsubj	riding	6
-3	of	of	prep	group	2
-4	friends	friend	pobj	of	3
-5	are	be	aux	riding	6
-6	riding	rid	ROOT	riding	6
-7	the	the	det	current	8
-8	current	current	dobj	riding	6
-9	in	in	prep	riding	6
-10	a	a	det	raft	11
-11	raft	raft	pobj	in	9
-
-# sent_id = 2273_A
-# text = A dog is biting a can
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	dog	2
-2	dog	dog	nsubj	biting	4
-3	is	be	aux	biting	4
-4	biting	bite	ROOT	biting	4
-5	a	a	det	can	6
-6	can	can	dobj	biting	4
-
-# sent_id = 2273_B
-# text = A can is being bitten by a dog
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	can	2
-2	can	can	nsubjpass	bitten	5
-3	is	be	aux	bitten	5
-4	being	be	auxpass	bitten	5
-5	bitten	bite	ROOT	bitten	5
-6	by	by	agent	bitten	5
-7	a	a	det	dog	8
-8	dog	dog	pobj	by	6
-
-# sent_id = 3073_A
-# text = A person is combing the fur of a cat
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	person	2
-2	person	person	nsubj	combing	4
-3	is	be	aux	combing	4
-4	combing	comb	ROOT	combing	4
-5	the	the	det	fur	6
-6	fur	fur	dobj	combing	4
-7	of	of	prep	fur	6
-8	a	a	det	cat	9
-9	cat	cat	pobj	of	7
-
-# sent_id = 3073_B
-# text = The fur of a cat is being combed by a person
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	fur	2
-2	fur	fur	nsubjpass	combed	8
-3	of	of	prep	fur	2
-4	a	a	det	cat	5
-5	cat	cat	pobj	of	3
-6	is	be	aux	combed	8
-7	being	be	auxpass	combed	8
-8	combed	comb	ROOT	combed	8
-9	by	by	agent	combed	8
-10	a	a	det	person	11
-11	person	person	pobj	by	9
-
-# sent_id = 6045_A
-# text = A woman is looking curiously at a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	woman	2
-2	woman	woman	nsubj	looking	4
-3	is	be	aux	looking	4
-4	looking	look	ROOT	looking	4
-5	curiously	curiously	advmod	looking	4
-6	at	at	prep	looking	4
-7	a	a	det	man	8
-8	man	man	pobj	at	6
-
-# sent_id = 6045_B
-# text = A man is being curiously looked at by a woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubjpass	looked	6
-3	is	be	aux	looked	6
-4	being	be	auxpass	looked	6
-5	curiously	curiously	advmod	looked	6
-6	looked	look	ROOT	looked	6
-7	at	at	prep	looked	6
-8	by	by	agent	looked	6
-9	a	a	det	woman	10
-10	woman	woman	pobj	by	8
-
-# sent_id = 3721_A
-# text = The person is slicing onions
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	person	2
-2	person	person	nsubj	slicing	4
-3	is	be	aux	slicing	4
-4	slicing	slice	ROOT	slicing	4
-5	onions	onion	dobj	slicing	4
-
-# sent_id = 3721_B
-# text = Onions are being sliced by the person
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Onions	onion	nsubjpass	sliced	4
-2	are	be	aux	sliced	4
-3	being	be	auxpass	sliced	4
-4	sliced	slice	ROOT	sliced	4
-5	by	by	agent	sliced	4
-6	the	the	det	person	7
-7	person	person	pobj	by	5
-
-# sent_id = 3815_A
-# text = The pepper is being sliced by a woman with a knife
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	pepper	2
-2	pepper	pepper	nsubjpass	sliced	5
-3	is	be	aux	sliced	5
-4	being	be	auxpass	sliced	5
-5	sliced	slice	ROOT	sliced	5
-6	by	by	agent	sliced	5
-7	a	a	det	woman	8
-8	woman	woman	pobj	by	6
-9	with	with	prep	woman	8
-10	a	a	det	knife	11
-11	knife	knife	pobj	with	9
-
-# sent_id = 3815_B
-# text = The woman with a knife is slicing a pepper
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	woman	2
-2	woman	woman	nsubj	slicing	7
-3	with	with	prep	woman	2
-4	a	a	det	knife	5
-5	knife	knife	pobj	with	3
-6	is	be	aux	slicing	7
-7	slicing	slice	ROOT	slicing	7
-8	a	a	det	pepper	9
-9	pepper	pepper	dobj	slicing	7
-
-# sent_id = 4499_A
-# text = The patient is being helped by the doctor
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	patient	2
-2	patient	patient	nsubjpass	helped	5
-3	is	be	aux	helped	5
-4	being	be	auxpass	helped	5
-5	helped	help	ROOT	helped	5
-6	by	by	agent	helped	5
-7	the	the	det	doctor	8
-8	doctor	doctor	pobj	by	6
-
-# sent_id = 4499_B
-# text = The doctor is helping the patient
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	doctor	2
-2	doctor	doctor	nsubj	helping	4
-3	is	be	aux	helping	4
-4	helping	help	ROOT	helping	4
-5	the	the	det	patient	6
-6	patient	patient	dobj	helping	4
-
-# sent_id = 3404_A
-# text = A person is folding a tortilla
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	person	2
-2	person	person	nsubj	folding	4
-3	is	be	aux	folding	4
-4	folding	fold	ROOT	folding	4
-5	a	a	det	tortilla	6
-6	tortilla	tortilla	dobj	folding	4
-
-# sent_id = 3404_B
-# text = A tortilla is being folded by a person
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	tortilla	2
-2	tortilla	tortilla	nsubjpass	folded	5
-3	is	be	aux	folded	5
-4	being	be	auxpass	folded	5
-5	folded	fold	ROOT	folded	5
-6	by	by	agent	folded	5
-7	a	a	det	person	8
-8	person	person	pobj	by	6
-
-# sent_id = 1448_A
-# text = A man is spreading dough
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	spreading	4
-3	is	be	aux	spreading	4
-4	spreading	spread	ROOT	spreading	4
-5	dough	dough	dobj	spreading	4
-
-# sent_id = 1448_B
-# text = Dough is being spread by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Dough	dough	nsubjpass	spread	4
-2	is	be	aux	spread	4
-3	being	be	auxpass	spread	4
-4	spread	spread	ROOT	spread	4
-5	by	by	agent	spread	4
-6	a	a	det	man	7
-7	man	man	pobj	by	5
-
-# sent_id = 1139_A
-# text = A man is driving a car
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	driving	4
-3	is	be	aux	driving	4
-4	driving	drive	ROOT	driving	4
-5	a	a	det	car	6
-6	car	car	dobj	driving	4
-
-# sent_id = 1139_B
-# text = The car is being driven by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	car	2
-2	car	car	nsubjpass	driven	5
-3	is	be	aux	driven	5
-4	being	be	auxpass	driven	5
-5	driven	drive	ROOT	driven	5
-6	by	by	agent	driven	5
-7	a	a	det	man	8
-8	man	man	pobj	by	6
-
-# sent_id = 8100_A
-# text = Mud is covering a topless woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Mud	mud	nsubj	covering	3
-2	is	be	aux	covering	3
-3	covering	cover	ROOT	covering	3
-4	a	a	det	woman	6
-5	topless	topless	amod	woman	6
-6	woman	woman	dobj	covering	3
-
-# sent_id = 8100_B
-# text = A topless woman is being covered in mud
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	woman	3
-2	topless	topless	amod	woman	3
-3	woman	woman	nsubjpass	covered	6
-4	is	be	aux	covered	6
-5	being	be	auxpass	covered	6
-6	covered	cover	ROOT	covered	6
-7	in	in	prep	covered	6
-8	mud	mud	pobj	in	7
-
-# sent_id = 7715_A
-# text = Water is being squirted by a man into the mouth of a white dog with a squirt gun
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Water	water	nsubjpass	squirted	4
-2	is	be	aux	squirted	4
-3	being	be	auxpass	squirted	4
-4	squirted	squirt	ROOT	squirted	4
-5	by	by	agent	squirted	4
-6	a	a	det	man	7
-7	man	man	pobj	by	5
-8	into	into	prep	man	7
-9	the	the	det	mouth	10
-10	mouth	mouth	pobj	into	8
-11	of	of	prep	mouth	10
-12	a	a	det	dog	14
-13	white	white	amod	dog	14
-14	dog	dog	pobj	of	11
-15	with	with	prep	dog	14
-16	a	a	det	gun	18
-17	squirt	squirt	compound	gun	18
-18	gun	gun	pobj	with	15
-
-# sent_id = 7715_B
-# text = A man is squirting water into the mouth of a white dog with a squirt gun
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	squirting	4
-3	is	be	aux	squirting	4
-4	squirting	squirt	ROOT	squirting	4
-5	water	water	dobj	squirting	4
-6	into	into	prep	squirting	4
-7	the	the	det	mouth	8
-8	mouth	mouth	pobj	into	6
-9	of	of	prep	mouth	8
-10	a	a	det	dog	12
-11	white	white	amod	dog	12
-12	dog	dog	pobj	of	9
-13	with	with	prep	dog	12
-14	a	a	det	gun	16
-15	squirt	squirt	compound	gun	16
-16	gun	gun	pobj	with	13
-
-# sent_id = 5360_A
-# text = The lady is peeling the potato
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	lady	2
-2	lady	lady	nsubj	peeling	4
-3	is	be	aux	peeling	4
-4	peeling	peel	ROOT	peeling	4
-5	the	the	det	potato	6
-6	potato	potato	dobj	peeling	4
-
-# sent_id = 5360_B
-# text = A potato is being peeled by a woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	potato	2
-2	potato	potato	nsubjpass	peeled	5
-3	is	be	aux	peeled	5
-4	being	be	auxpass	peeled	5
-5	peeled	peel	ROOT	peeled	5
-6	by	by	agent	peeled	5
-7	a	a	det	woman	8
-8	woman	woman	pobj	by	6
-
-# sent_id = 1875_A
-# text = The food on the trays is being eaten by the kittens
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	food	2
-2	food	food	nsubjpass	eaten	8
-3	on	on	prep	food	2
-4	the	the	det	trays	5
-5	trays	tray	pobj	on	3
-6	is	be	aux	eaten	8
-7	being	be	auxpass	eaten	8
-8	eaten	eat	ROOT	eaten	8
-9	by	by	agent	eaten	8
-10	the	the	det	kittens	11
-11	kittens	kitten	pobj	by	9
-
-# sent_id = 1875_B
-# text = The kittens are eating the food on the trays
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	kittens	2
-2	kittens	kitten	nsubj	eating	4
-3	are	be	aux	eating	4
-4	eating	eat	ROOT	eating	4
-5	the	the	det	food	6
-6	food	food	dobj	eating	4
-7	on	on	prep	eating	4
-8	the	the	det	trays	9
-9	trays	tray	pobj	on	7
-
-# sent_id = 5180_A
-# text = Food is being deep fried by a woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Food	food	nsubjpass	fried	5
-2	is	be	aux	fried	5
-3	being	be	auxpass	fried	5
-4	deep	deep	advmod	fried	5
-5	fried	fry	ROOT	fried	5
-6	by	by	agent	fried	5
-7	a	a	det	woman	8
-8	woman	woman	pobj	by	6
-
-# sent_id = 5180_B
-# text = A woman is frying some food
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	woman	2
-2	woman	woman	nsubj	frying	4
-3	is	be	aux	frying	4
-4	frying	fry	ROOT	frying	4
-5	some	some	det	food	6
-6	food	food	dobj	frying	4
-
-# sent_id = 7304_A
-# text = The man in the straw hat is smoking a cigarette
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	man	2
-2	man	man	nsubj	smoking	8
-3	in	in	prep	man	2
-4	the	the	det	hat	6
-5	straw	straw	compound	hat	6
-6	hat	hat	pobj	in	3
-7	is	be	aux	smoking	8
-8	smoking	smoke	ROOT	smoking	8
-9	a	a	det	cigarette	10
-10	cigarette	cigarette	dobj	smoking	8
-
-# sent_id = 7304_B
-# text = A cigarette is being smoked by the man in the straw hat
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	cigarette	2
-2	cigarette	cigarette	nsubjpass	smoked	5
-3	is	be	aux	smoked	5
-4	being	be	auxpass	smoked	5
-5	smoked	smoke	ROOT	smoked	5
-6	by	by	agent	smoked	5
-7	the	the	det	man	8
-8	man	man	pobj	by	6
-9	in	in	prep	man	8
-10	the	the	det	hat	12
-11	straw	straw	compound	hat	12
-12	hat	hat	pobj	in	9
-
-# sent_id = 7488_A
-# text = A blue ball is being caught by the dog
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	ball	3
-2	blue	blue	amod	ball	3
-3	ball	ball	nsubjpass	caught	6
-4	is	be	aux	caught	6
-5	being	be	auxpass	caught	6
-6	caught	catch	ROOT	caught	6
-7	by	by	agent	caught	6
-8	the	the	det	dog	9
-9	dog	dog	pobj	by	7
-
-# sent_id = 7488_B
-# text = The dog is catching a blue ball
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	dog	2
-2	dog	dog	nsubj	catching	4
-3	is	be	aux	catching	4
-4	catching	catch	ROOT	catching	4
-5	a	a	det	ball	7
-6	blue	blue	amod	ball	7
-7	ball	ball	dobj	catching	4
-
-# sent_id = 4107_A
-# text = Some food is being eaten by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Some	some	det	food	2
-2	food	food	nsubjpass	eaten	5
-3	is	be	aux	eaten	5
-4	being	be	auxpass	eaten	5
-5	eaten	eat	ROOT	eaten	5
-6	by	by	agent	eaten	5
-7	a	a	det	man	8
-8	man	man	pobj	by	6
-
-# sent_id = 4107_B
-# text = A man is eating some food
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	eating	4
-3	is	be	aux	eating	4
-4	eating	eat	ROOT	eating	4
-5	some	some	det	food	6
-6	food	food	dobj	eating	4
-
-# sent_id = 6415_A
-# text = A bike is being ridden by a person
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	bike	2
-2	bike	bike	nsubjpass	ridden	5
-3	is	be	aux	ridden	5
-4	being	be	auxpass	ridden	5
-5	ridden	ride	ROOT	ridden	5
-6	by	by	agent	ridden	5
-7	a	a	det	person	8
-8	person	person	pobj	by	6
-
-# sent_id = 6415_B
-# text = A person is riding a bike
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	person	2
-2	person	person	nsubj	riding	4
-3	is	be	aux	riding	4
-4	riding	rid	ROOT	riding	4
-5	a	a	det	bike	6
-6	bike	bike	dobj	riding	4
-
-# sent_id = 3055_A
-# text = A man is pouring oil into a pan
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	pouring	4
-3	is	be	aux	pouring	4
-4	pouring	pour	ROOT	pouring	4
-5	oil	oil	dobj	pouring	4
-6	into	into	prep	pouring	4
-7	a	a	det	pan	8
-8	pan	pan	pobj	into	6
-
-# sent_id = 3055_B
-# text = Oil is being poured into a skillet by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Oil	oil	nsubjpass	poured	4
-2	is	be	aux	poured	4
-3	being	be	auxpass	poured	4
-4	poured	pour	ROOT	poured	4
-5	into	into	prep	poured	4
-6	a	a	det	skillet	7
-7	skillet	skillet	pobj	into	5
-8	by	by	agent	poured	4
-9	a	a	det	man	10
-10	man	man	pobj	by	8
-
-# sent_id = 7162_A
-# text = The black dog is climbing on a rock
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	dog	3
-2	black	black	amod	dog	3
-3	dog	dog	nsubj	climbing	5
-4	is	be	aux	climbing	5
-5	climbing	climb	ROOT	climbing	5
-6	on	on	prep	climbing	5
-7	a	a	det	rock	8
-8	rock	rock	pobj	on	6
-
-# sent_id = 7162_B
-# text = A rock is being climbed by the black dog
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	rock	2
-2	rock	rock	nsubjpass	climbed	5
-3	is	be	aux	climbed	5
-4	being	be	auxpass	climbed	5
-5	climbed	climb	ROOT	climbed	5
-6	by	by	agent	climbed	5
-7	the	the	det	dog	9
-8	black	black	amod	dog	9
-9	dog	dog	pobj	by	6
-
-# sent_id = 5725_A
-# text = Hay is being eaten by a cow
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Hay	Hay	nsubjpass	eaten	4
-2	is	be	aux	eaten	4
-3	being	be	auxpass	eaten	4
-4	eaten	eat	ROOT	eaten	4
-5	by	by	agent	eaten	4
-6	a	a	det	cow	7
-7	cow	cow	pobj	by	5
-
-# sent_id = 5725_B
-# text = A cow is eating hay
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	cow	2
-2	cow	cow	nsubj	eating	4
-3	is	be	aux	eating	4
-4	eating	eat	ROOT	eating	4
-5	hay	hay	dobj	eating	4
-
-# sent_id = 7954_A
-# text = A basketball player is on the court floor and another one is grabbing the ball
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	player	3
-2	basketball	basketball	compound	player	3
-3	player	player	nsubj	is	4
-4	is	be	ROOT	is	4
-5	on	on	prep	is	4
-6	the	the	det	floor	8
-7	court	court	compound	floor	8
-8	floor	floor	pobj	on	5
-9	and	and	cc	is	4
-10	another	another	det	one	11
-11	one	one	nsubj	grabbing	13
-12	is	be	aux	grabbing	13
-13	grabbing	grab	conj	is	4
-14	the	the	det	ball	15
-15	ball	ball	dobj	grabbing	13
-
-# sent_id = 7954_B
-# text = A basketball player is on the court floor and the ball is being grabbed by another one
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	player	3
-2	basketball	basketball	compound	player	3
-3	player	player	nsubj	is	4
-4	is	be	ROOT	is	4
-5	on	on	prep	is	4
-6	the	the	det	floor	8
-7	court	court	compound	floor	8
-8	floor	floor	pobj	on	5
-9	and	and	cc	is	4
-10	the	the	det	ball	11
-11	ball	ball	nsubjpass	grabbed	14
-12	is	be	aux	grabbed	14
-13	being	be	auxpass	grabbed	14
-14	grabbed	grab	conj	is	4
-15	by	by	agent	grabbed	14
-16	another	another	det	one	17
-17	one	one	pobj	by	15
-
-# sent_id = 2248_A
-# text = Cereal is being eaten by the man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Cereal	Cereal	nsubjpass	eaten	4
-2	is	be	aux	eaten	4
-3	being	be	auxpass	eaten	4
-4	eaten	eat	ROOT	eaten	4
-5	by	by	agent	eaten	4
-6	the	the	det	man	7
-7	man	man	pobj	by	5
-
-# sent_id = 2248_B
-# text = The man is eating cereal
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	man	2
-2	man	man	nsubj	eating	4
-3	is	be	aux	eating	4
-4	eating	eat	ROOT	eating	4
-5	cereal	cereal	dobj	eating	4
-
-# sent_id = 7878_A
-# text = Three people are driving ATVs
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Three	three	nummod	people	2
-2	people	people	nsubj	driving	4
-3	are	be	aux	driving	4
-4	driving	drive	ROOT	driving	4
-5	ATVs	atv	dobj	driving	4
-
-# sent_id = 7878_B
-# text = ATVs are being driven by three people
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	ATVs	atv	nsubjpass	driven	4
-2	are	be	aux	driven	4
-3	being	be	auxpass	driven	4
-4	driven	drive	ROOT	driven	4
-5	by	by	agent	driven	4
-6	three	three	nummod	people	7
-7	people	people	pobj	by	5
-
-# sent_id = 1680_A
-# text = Some oil is being poured on the tomatoes by the man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Some	some	det	oil	2
-2	oil	oil	nsubjpass	poured	5
-3	is	be	aux	poured	5
-4	being	be	auxpass	poured	5
-5	poured	pour	ROOT	poured	5
-6	on	on	prep	poured	5
-7	the	the	det	tomatoes	8
-8	tomatoes	tomato	pobj	on	6
-9	by	by	agent	poured	5
-10	the	the	det	man	11
-11	man	man	pobj	by	9
-
-# sent_id = 1680_B
-# text = The man is pouring some oil on the tomatoes
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	man	2
-2	man	man	nsubj	pouring	4
-3	is	be	aux	pouring	4
-4	pouring	pour	ROOT	pouring	4
-5	some	some	det	oil	6
-6	oil	oil	dobj	pouring	4
-7	on	on	prep	pouring	4
-8	the	the	det	tomatoes	9
-9	tomatoes	tomato	pobj	on	7
-
-# sent_id = 5374_A
-# text = An octopus is being sliced by a woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	An	an	det	octopus	2
-2	octopus	octopus	nsubjpass	sliced	5
-3	is	be	aux	sliced	5
-4	being	be	auxpass	sliced	5
-5	sliced	slice	ROOT	sliced	5
-6	by	by	agent	sliced	5
-7	a	a	det	woman	8
-8	woman	woman	pobj	by	6
-
-# sent_id = 5374_B
-# text = A woman is slicing an octopus
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	woman	2
-2	woman	woman	nsubj	slicing	4
-3	is	be	aux	slicing	4
-4	slicing	slice	ROOT	slicing	4
-5	an	an	det	octopus	6
-6	octopus	octopus	dobj	slicing	4
-
-# sent_id = 6689_A
-# text = Four middle eastern children, three girls and one boy, are climbing on the grotto with a pink interior
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Four	four	nummod	children	4
-2	middle	middle	amod	children	4
-3	eastern	eastern	amod	children	4
-4	children	child	nsubj	climbing	13
-5	,	,	punct	children	4
-6	three	three	nummod	girls	7
-7	girls	girl	appos	children	4
-8	and	and	cc	girls	7
-9	one	one	nummod	boy	10
-10	boy	boy	conj	girls	7
-11	,	,	punct	children	4
-12	are	be	aux	climbing	13
-13	climbing	climb	ROOT	climbing	13
-14	on	on	prep	climbing	13
-15	the	the	det	grotto	16
-16	grotto	grotto	pobj	on	14
-17	with	with	prep	climbing	13
-18	a	a	det	interior	20
-19	pink	pink	amod	interior	20
-20	interior	interior	pobj	with	17
-
-# sent_id = 6689_B
-# text = The grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	grotto	2
-2	grotto	grotto	nsubjpass	climbed	9
-3	with	with	prep	grotto	2
-4	a	a	det	interior	6
-5	pink	pink	amod	interior	6
-6	interior	interior	pobj	with	3
-7	is	be	aux	climbed	9
-8	being	be	auxpass	climbed	9
-9	climbed	climb	ROOT	climbed	9
-10	by	by	agent	climbed	9
-11	four	four	nummod	children	14
-12	middle	middle	amod	children	14
-13	eastern	eastern	amod	children	14
-14	children	child	pobj	by	10
-15	,	,	punct	children	14
-16	three	three	nummod	girls	17
-17	girls	girl	appos	children	14
-18	and	and	cc	girls	17
-19	one	one	nummod	boy	20
-20	boy	boy	conj	girls	17
-
-# sent_id = 642_A
-# text = A person is climbing a rock with a rope, which is pink
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	person	2
-2	person	person	nsubj	climbing	4
-3	is	be	aux	climbing	4
-4	climbing	climb	ROOT	climbing	4
-5	a	a	det	rock	6
-6	rock	rock	dobj	climbing	4
-7	with	with	prep	climbing	4
-8	a	a	det	rope	9
-9	rope	rope	pobj	with	7
-10	,	,	punct	rope	9
-11	which	which	nsubj	is	12
-12	is	be	relcl	rope	9
-13	pink	pink	acomp	is	12
-
-# sent_id = 642_B
-# text = A rock is being climbed by a person with a rope, which is pink
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	rock	2
-2	rock	rock	nsubjpass	climbed	5
-3	is	be	aux	climbed	5
-4	being	be	auxpass	climbed	5
-5	climbed	climb	ROOT	climbed	5
-6	by	by	agent	climbed	5
-7	a	a	det	person	8
-8	person	person	pobj	by	6
-9	with	with	prep	person	8
-10	a	a	det	rope	11
-11	rope	rope	pobj	with	9
-12	,	,	punct	rope	11
-13	which	which	nsubj	is	14
-14	is	be	relcl	rope	11
-15	pink	pink	acomp	is	14
-
-# sent_id = 4380_A
-# text = A shoe is being tied by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	shoe	2
-2	shoe	shoe	nsubjpass	tied	5
-3	is	be	aux	tied	5
-4	being	be	auxpass	tied	5
-5	tied	tie	ROOT	tied	5
-6	by	by	agent	tied	5
-7	a	a	det	man	8
-8	man	man	pobj	by	6
-
-# sent_id = 4380_B
-# text = A man is tying a shoe
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	tying	4
-3	is	be	aux	tying	4
-4	tying	tie	ROOT	tying	4
-5	a	a	det	shoe	6
-6	shoe	shoe	dobj	tying	4
-
-# sent_id = 6495_A
-# text = The man is taking a picture of himself and another guy
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	The	the	det	man	2
-2	man	man	nsubj	taking	4
-3	is	be	aux	taking	4
-4	taking	take	ROOT	taking	4
-5	a	a	det	picture	6
-6	picture	picture	dobj	taking	4
-7	of	of	prep	picture	6
-8	himself	himself	pobj	of	7
-9	and	and	cc	taking	4
-10	another	another	det	guy	11
-11	guy	guy	conj	taking	4
-
-# sent_id = 6495_B
-# text = A picture of himself and another guy is being taken by the man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	picture	2
-2	picture	picture	nsubjpass	taken	10
-3	of	of	prep	picture	2
-4	himself	himself	pobj	of	3
-5	and	and	cc	picture	2
-6	another	another	det	guy	7
-7	guy	guy	nsubjpass	taken	10
-8	is	be	aux	taken	10
-9	being	be	auxpass	taken	10
-10	taken	take	ROOT	taken	10
-11	by	by	agent	taken	10
-12	the	the	det	man	13
-13	man	man	pobj	by	11
-
-# sent_id = 4246_A
-# text = A song is being sung by a clown
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	song	2
-2	song	song	nsubjpass	sung	5
-3	is	be	aux	sung	5
-4	being	be	auxpass	sung	5
-5	sung	sing	ROOT	sung	5
-6	by	by	agent	sung	5
-7	a	a	det	clown	8
-8	clown	clown	pobj	by	6
-
-# sent_id = 4246_B
-# text = A clown is singing
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	clown	2
-2	clown	clown	nsubj	singing	4
-3	is	be	aux	singing	4
-4	singing	sing	ROOT	singing	4
-
-# sent_id = 5300_A
-# text = Potatoes are being sliced by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Potatoes	potato	nsubjpass	sliced	4
-2	are	be	aux	sliced	4
-3	being	be	auxpass	sliced	4
-4	sliced	slice	ROOT	sliced	4
-5	by	by	agent	sliced	4
-6	a	a	det	man	7
-7	man	man	pobj	by	5
-
-# sent_id = 5300_B
-# text = A man is slicing potatoes
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	slicing	4
-3	is	be	aux	slicing	4
-4	slicing	slice	ROOT	slicing	4
-5	potatoes	potato	dobj	slicing	4
-
-# sent_id = 7668_A
-# text = A man is performing a handstand on the beach
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	performing	4
-3	is	be	aux	performing	4
-4	performing	perform	ROOT	performing	4
-5	a	a	det	handstand	6
-6	handstand	handstand	dobj	performing	4
-7	on	on	prep	handstand	6
-8	the	the	det	beach	9
-9	beach	beach	pobj	on	7
-
-# sent_id = 7668_B
-# text = A handstand is being performed by a man on the beach
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	handstand	2
-2	handstand	handstand	nsubjpass	performed	5
-3	is	be	aux	performed	5
-4	being	be	auxpass	performed	5
-5	performed	perform	ROOT	performed	5
-6	by	by	agent	performed	5
-7	a	a	det	man	8
-8	man	man	pobj	by	6
-9	on	on	prep	man	8
-10	the	the	det	beach	11
-11	beach	beach	pobj	on	9
-
-# sent_id = 5183_A
-# text = A man is petting two dogs
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	petting	4
-3	is	be	aux	petting	4
-4	petting	pet	ROOT	petting	4
-5	two	two	nummod	dogs	6
-6	dogs	dog	dobj	petting	4
-
-# sent_id = 5183_B
-# text = Two dogs are being petted by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	Two	two	nummod	dogs	2
-2	dogs	dog	nsubjpass	petted	5
-3	are	be	aux	petted	5
-4	being	be	auxpass	petted	5
-5	petted	pet	ROOT	petted	5
-6	by	by	agent	petted	5
-7	a	a	det	man	8
-8	man	man	pobj	by	6
-
-# sent_id = 2091_A
-# text = A white car is being driven by the man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	car	3
-2	white	white	amod	car	3
-3	car	car	nsubjpass	driven	6
-4	is	be	aux	driven	6
-5	being	be	auxpass	driven	6
-6	driven	drive	ROOT	driven	6
-7	by	by	agent	driven	6
-8	the	the	det	man	9
-9	man	man	pobj	by	7
-
-# sent_id = 2091_B
-# text = A person is driving the white car
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	person	2
-2	person	person	nsubj	driving	4
-3	is	be	aux	driving	4
-4	driving	drive	ROOT	driving	4
-5	the	the	det	car	7
-6	white	white	amod	car	7
-7	car	car	dobj	driving	4
-
-# sent_id = 4508_A
-# text = A woman is being massaged by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	woman	2
-2	woman	woman	nsubjpass	massaged	5
-3	is	be	aux	massaged	5
-4	being	be	auxpass	massaged	5
-5	massaged	massage	ROOT	massaged	5
-6	by	by	agent	massaged	5
-7	a	a	det	man	8
-8	man	man	pobj	by	6
-
-# sent_id = 4508_B
-# text = A man is massaging a woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	massaging	4
-3	is	be	aux	massaging	4
-4	massaging	massage	ROOT	massaging	4
-5	a	a	det	woman	6
-6	woman	woman	dobj	massaging	4
-
-# sent_id = 4896_A
-# text = A woman is being carried by a man
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	woman	2
-2	woman	woman	nsubjpass	carried	5
-3	is	be	aux	carried	5
-4	being	be	auxpass	carried	5
-5	carried	carry	ROOT	carried	5
-6	by	by	agent	carried	5
-7	a	a	det	man	8
-8	man	man	pobj	by	6
-
-# sent_id = 4896_B
-# text = A man is carrying a woman
-pos_du_mot	token	lemma	étiquette	gouverneur	pos_du_gouv
-1	A	a	det	man	2
-2	man	man	nsubj	carrying	4
-3	is	be	aux	carrying	4
-4	carrying	carry	ROOT	carrying	4
-5	a	a	det	woman	6
-6	woman	woman	dobj	carrying	4
 

@@ -1,117 +1,72 @@
-# ::id 4748_A
-# ::snt A little girl is playing the violin on a beach
-(p / play-11
-      :ARG0 (g / girl
-            :mod (l / little))
-      :ARG1 (v / violin)
-      :location (b / beach))
+# ::id 391_A
+# ::snt A man with paint covered clothes is sitting outside in a busy area writing something
+(s / sit-01
+      :ARG1 (m / man
+            :ARG0-of (h / have-03
+                  :ARG1 (c / clothes
+                        :ARG1-of (c2 / cover-01
+                              :ARG2 (p / paint)))))
+      :ARG2 (o / outside)
+      :location (a / area
+            :ARG1-of (b / busy-02))
+      :purpose (w / write-01
+            :ARG0 m
+            :ARG1 (s2 / something)))
 
-# ::id 4748_B
-# ::snt The violin is being played by a little girl on a beach
-(p / play-11
-      :ARG0 (g / girl
-            :mod (l / little))
-      :ARG1 (v / violin)
-      :location (b / beach))
+# ::id 391_B
+# ::snt A man is wearing clothes that are covered with paint and is sitting outside in a busy area writing something
+(a / and
+      :op1 (w / wear-01
+            :ARG0 (m / man)
+            :ARG1 (c / clothe
+                  :ARG1-of (c2 / cover-01
+                        :ARG2 (p / paint))))
+      :op2 (s / sit-01
+            :ARG1 m
+            :ARG2 (o / outside
+                  :op1 (a2 / area
+                        :ARG1-of (b / busy-01)))
+            :purpose (w2 / write-01
+                  :ARG0 m
+                  :ARG1 (s2 / something))))
 
-# ::id 3080_A
-# ::snt Broccoli is being chopped by a woman
-(c / chop-01
-      :ARG0 (w / woman)
-      :ARG1 (c2 / ccoli))
+# ::id 642_A
+# ::snt A person is climbing a rock with a rope, which is pink
+(c / climb-01
+      :ARG0 (p / person)
+      :ARG1 (r / rock
+            :ARG1-of (p2 / pink-04))
+      :instrument (r2 / rope))
 
-# ::id 3080_B
-# ::snt A woman is chopping broccoli
-(c / chop-01
-      :ARG0 (w / woman)
-      :ARG1 (b / broccoli))
+# ::id 642_B
+# ::snt A rock is being climbed by a person with a rope, which is pink
+(c / climb-01
+      :ARG0 (p / person
+            :ARG0-of (h / have-03
+                  :ARG1 (r / rope
+                        :ARG1-of (p2 / pink-04))))
+      :ARG1 (r2 / rock))
 
-# ::id 6116_A
-# ::snt A black and white dog is holding a baseball in its mouth
-(h / hold-01
-      :ARG0 (d / dog
-            :ARG1-of (b / black-05)
-            :ARG1-of (w / white-03)
-            :part (m / mouth))
-      :ARG1 (b2 / baseball)
-      :ARG2 m)
+# ::id 947_A
+# ::snt Some corndogs are being eaten by two toddlers who are in a wagon, which is really small
+(e / eat-01
+      :ARG0 (t / toddler
+            :quant 2
+            :location (w / wagon
+                  :mod (s / small
+                        :degree (r / really))))
+      :ARG1 (c / corndog
+            :quant (s2 / some)))
 
-# ::id 6116_B
-# ::snt A baseball is being held in its mouth by a black and white dog
-(h / hold-01
-      :ARG0 (d / dog
-            :ARG1-of (b / black-04)
-            :ARG1-of (w / white-03))
-      :ARG1 (b2 / baseball)
-      :ARG2 (m / mouth
-            :part-of (ii / it)))
-
-# ::id 1558_A
-# ::snt A man is picking up a tree
-(p / pick-up-04
-      :ARG0 (m / man)
-      :ARG1 (t / tree))
-
-# ::id 1558_B
-# ::snt A tree is being picked up by a man
-(p / pick-up-04
-      :ARG0 (m / man)
-      :ARG1 (t / tree))
-
-# ::id 5633_A
-# ::snt The guitar is being played by a kid
-(p / play-11
-      :ARG0 (k / kid)
-      :ARG1 (g / guitar))
-
-# ::id 5633_B
-# ::snt A kid is playing the guitar
-(p / play-11
-      :ARG0 (k / kid)
-      :ARG2 (g / guitar))
-
-# ::id 5075_A
-# ::snt A man is playing the piano
-(p / play-11
-      :ARG0 (m / man)
-      :ARG2 (p2 / piano))
-
-# ::id 5075_B
-# ::snt The piano is being played by a man
-(p / play-11
-      :ARG0 (m / man)
-      :ARG2 (p2 / piano))
-
-# ::id 2053_A
-# ::snt Some meat is being cut into pieces by a woman
-(c / cut-01
-      :ARG0 (w / woman)
-      :ARG1 (m / meat
-            :mod (s / some))
-      :ARG2 (p / piece
-            :domain m))
-
-# ::id 2053_B
-# ::snt A woman is cutting some meat into pieces
-(c / cut-01
-      :ARG0 (w / woman)
-      :ARG1 (m / meat
-            :mod (s / some))
-      :ARG4 (p / piece))
-
-# ::id 1743_A
-# ::snt A man is pushing the buttons of a microwave
-(p / push-01
-      :ARG0 (m / man)
-      :ARG1 (b / button
-            :part-of (m2 / microwave)))
-
-# ::id 1743_B
-# ::snt The buttons of a microwave are being pushed by a man
-(p / push-01
-      :ARG0 (m / man)
-      :ARG1 (b / button
-            :part-of (m2 / microwave)))
+# ::id 947_B
+# ::snt Two toddlers are eating corndogs in a wagon, which is really small
+(e / eat-01
+      :ARG0 (t / toddler
+            :quant 2)
+      :ARG1 (c / corndog)
+      :location (w / wagon
+            :mod (s / small
+                  :degree (r / really))))
 
 # ::id 1071_A
 # ::snt A pink shirt with white writing on it is being worn by a girl who is lying in the grass
@@ -137,403 +92,76 @@
             :ARG1 g
             :ARG2 (g2 / grass)))
 
-# ::id 5408_A
-# ::snt A baby is playing a guitar
-(p / play-11
-      :ARG0 (b / baby)
-      :ARG2 (g / guitar))
+# ::id 1333_A
+# ::snt The woman is measuring the other woman
+(m / measure-01
+      :ARG0 (w / woman)
+      :ARG1 (w2 / woman
+            :mod (o / other)))
 
-# ::id 5408_B
-# ::snt A guitar is being played by a baby
-(p / play-11
-      :ARG0 (b / baby)
-      :ARG1 (g / guitar))
+# ::id 1333_B
+# ::snt A woman is being measured by another woman
+(m / measure-01
+      :ARG0 (w / woman
+            :mod (a / another))
+      :ARG1 (w2 / woman))
 
-# ::id 4472_A
-# ::snt The content of a bowl is being mixed by a man
-(m / mix-01
-      :ARG0 (m2 / man)
-      :ARG1 (t / thing
-            :ARG1-of (c / contain-01
-                  :ARG0 (b / bowl))))
+# ::id 1378_A
+# ::snt A steak is being rinsed with water by a person
+(r / rinse-01
+      :ARG0 (p / person)
+      :ARG1 (s / steak)
+      :ARG2 (w / water))
 
-# ::id 4472_B
-# ::snt A man is mixing the content of a bowl
-(m / mix-01
-      :ARG0 (m2 / man)
-      :ARG1 (t / thing
-            :ARG1-of (c / contain-01
-                  :ARG0 (b / bowl))))
+# ::id 1378_B
+# ::snt A person is rinsing a steak with water
+(r / rinse-01
+      :ARG0 (p / person)
+      :ARG1 (s / steak)
+      :ARG2 (w / water))
 
-# ::id 7215_A
-# ::snt A colored toy is being carried by a brown dog in the grass
-(c / carry-01
-      :ARG0 (d / dog
-            :ARG1-of (b / brown-02))
-      :ARG1 (t / toy
-            :ARG1-of (c2 / color-01))
-      :location (g / grass))
+# ::id 1484_A
+# ::snt The oil is being stirred by a man
+(s / stir-01
+      :ARG0 (m / man)
+      :ARG1 (o / oil))
 
-# ::id 7215_B
-# ::snt A brown dog is carrying a colored toy in the grass
-(c / carry-01
-      :ARG0 (d / dog
-            :mod (b / brown))
-      :ARG1 (t / toy
-            :ARG1-of (c2 / color-01))
-      :location (g / grass))
+# ::id 1484_B
+# ::snt The man is stirring oil
+(s / stir-01
+      :ARG0 (m / man)
+      :ARG1 (o / oil))
 
-# ::id 6804_A
-# ::snt A man is wearing a sports uniform and is running down the field
-(a / and
-      :op1 (w / wear-01
-            :ARG0 (m / man)
-            :ARG1 (u / uniform
-                  :mod (s / sport)))
-      :op2 (r / run-02
-            :ARG0 m
-            :direction (d / down
-                  :op1 (f / field))))
+# ::id 1607_A
+# ::snt A snake is being fed a mouse by a man
+(f / feed-01
+      :ARG0 (m / man)
+      :ARG1 (s / snake)
+      :ARG2 (m2 / mouse))
 
-# ::id 6804_B
-# ::snt A sports uniform is being worn by a man who is running down the field
-(w / wear-01
+# ::id 1607_B
+# ::snt One man is feeding a mouse to the snake
+(f / feed-01
       :ARG0 (m / man
-            :ARG0-of (r / run-02
-                  :direction (d / down
-                        :op1 (f / field))))
-      :ARG1 (u / uniform
-            :mod (s / sport)))
+            :quant 1)
+      :ARG1 (m2 / mouse)
+      :ARG2 (s / snake))
 
-# ::id 3836_A
-# ::snt A horse is being ridden in a creek by a man
-(r / ride-01
-      :ARG0 (m / man)
-      :ARG1 (h / horse)
-      :location (c / creek))
-
-# ::id 3836_B
-# ::snt The man is riding a horse by a creek
-(r / ride-01
-      :ARG0 (m / man)
-      :ARG1 (h / horse)
-      :location (c / creek))
-
-# ::id 7357_A
-# ::snt A tower is being looked at by a blonde lady
-(l / look-01
-      :ARG0 (l2 / lady
-            :mod (b / blonde))
-      :ARG1 (t / tower))
-
-# ::id 7357_B
-# ::snt A blonde lady is looking at a tower
-(l / look-01
-      :ARG0 (l2 / lady
-            :mod (b / blonde))
-      :ARG1 (t / tower))
-
-# ::id 8894_A
-# ::snt Two people are riding motorbikes
-(r / ride-01
-      :ARG0 (p / person
-            :quant 2)
-      :ARG1 (m / motorcycle))
-
-# ::id 8894_B
-# ::snt Motorbikes are being ridden by two people
-(r / ride-01
-      :ARG0 (p / person
-            :quant 2)
-      :ARG1 (m / motorcycle))
-
-# ::id 6201_A
-# ::snt A bicyclist is holding a bike over his head in a group of people
+# ::id 1705_A
+# ::snt A frog is being held carelessly by a man
 (h / hold-01
-      :ARG0 (p / person
-            :part (h2 / head)
-            :ARG0-of (b / bicycle-01))
-      :ARG1 (b2 / bike)
-      :ARG2 (o / over
-            :op1 h2)
-      :accompanier (g / group
-            :consist-of (p2 / person)))
+      :ARG0 (m / man)
+      :ARG1 (f / frog)
+      :ARG1-of (c / care-04
+            :polarity -))
 
-# ::id 6201_B
-# ::snt A bike is being held over his head by a bicyclist in a group of people
+# ::id 1705_B
+# ::snt A man is carelessly holding a frog
 (h / hold-01
-      :ARG0 (p / person
-            :ARG0-of (b / bicycle-01)
-            :part (h2 / head)
-            :ARG1-of (ii / include-91
-                  :ARG2 (g / group
-                        :consist-of (p2 / person))))
-      :ARG1 (b2 / bike)
-      :ARG2 h2)
-
-# ::id 8298_A
-# ::snt Sunglasses are being worn by a boy
-(w / wear-01
-      :ARG0 (b / boy)
-      :ARG1 (s / sunglasses))
-
-# ::id 8298_B
-# ::snt A boy is wearing sunglasses
-(w / wear-01
-      :ARG0 (b / boy)
-      :ARG1 (s / sunglasses))
-
-# ::id 531_A
-# ::snt A black helmet is being worn by a man who is pushing a bicycle
-(w / wear-01
-      :ARG0 (m / man
-            :ARG0-of (p / push-01
-                  :ARG1 (b / bicycle)))
-      :ARG1 (h / helmet
-            :ARG1-of (b2 / black-04)))
-
-# ::id 531_B
-# ::snt One man is wearing a black helmet and pushing a bicycle
-(a / and
-      :op1 (w / wear-01
-            :ARG0 (m / man
-                  :quant 1)
-            :ARG1 (h / helmet
-                  :ARG1-of (b / black-04)))
-      :op2 (p / push-01
-            :ARG0 m
-            :ARG1 (b2 / bicycle)))
-
-# ::id 7934_A
-# ::snt A fur scarf is being held by an Asian woman
-(h / hold-01
-      :ARG0 (w / woman
-            :mod (c / continent
-                  :name (n / name
-                        :op1 "Asia")))
-      :ARG1 (s / scarf
-            :mod (f / fur)))
-
-# ::id 7934_B
-# ::snt An Asian woman is holding a fur scarf
-(h / hold-01
-      :ARG0 (w / woman
-            :mod (c / continent
-                  :name (n / name
-                        :op1 "Asia")))
-      :ARG1 (s / scarf
-            :mod (f / fur)))
-
-# ::id 9184_A
-# ::snt A ball is being chased by a yellow dog
-(c / chase-01
-      :ARG0 (d / dog
-            :ARG1-of (y / yellow-02))
-      :ARG1 (b / ball))
-
-# ::id 9184_B
-# ::snt A yellow dog is chasing a ball
-(c / chase-01
-      :ARG0 (d / dog
-            :ARG1-of (y / yellow-02))
-      :ARG1 (b / ball))
-
-# ::id 4717_A
-# ::snt A monkey is kicking a person
-(k / kick-01
-      :ARG0 (m / monkey)
-      :ARG1 (p / person))
-
-# ::id 4717_B
-# ::snt A person is being kicked by a monkey
-(k / kick-01
-      :ARG0 (m / monkey)
-      :ARG1 (p / person))
-
-# ::id 140_A
-# ::snt The current is being ridden by a group of friends in a raft
-(r / ride-01
-      :ARG0 (g / group
-            :consist-of (f / friend))
-      :ARG1 (c / current)
-      :location (r2 / raft))
-
-# ::id 140_B
-# ::snt A group of friends are riding the current in a raft
-(r / ride-01
-      :ARG0 (g / group
-            :consist-of (p / person
-                  :ARG0-of (h / have-rel-role-91
-                        :ARG2 (f / friend))))
-      :ARG1 (c / current)
-      :location (r2 / raft))
-
-# ::id 2273_A
-# ::snt A dog is biting a can
-(b / bite-01
-      :ARG0 (d / dog)
-      :ARG1 (c / can))
-
-# ::id 2273_B
-# ::snt A can is being bitten by a dog
-(b / bite-01
-      :ARG0 (d / dog)
-      :ARG1 (c / can))
-
-# ::id 3073_A
-# ::snt A person is combing the fur of a cat
-(c / comb-01
-      :ARG0 (p / person)
-      :ARG1 (f / fur
-            :poss (c2 / cat)))
-
-# ::id 3073_B
-# ::snt The fur of a cat is being combed by a person
-(c / comb-01
-      :ARG0 (p / person)
-      :ARG1 (f / fur
-            :poss (c2 / cat)))
-
-# ::id 6045_A
-# ::snt A woman is looking curiously at a man
-(l / look-01
-      :ARG0 (w / woman)
-      :ARG1 (m / man)
-      :ARG2-of (c / curious-01))
-
-# ::id 6045_B
-# ::snt A man is being curiously looked at by a woman
-(l / look-01
-      :ARG0 (w / woman)
-      :ARG1 (m / man)
-      :ARG2-of (c / curious-01))
-
-# ::id 3721_A
-# ::snt The person is slicing onions
-(s / slice-01
-      :ARG0 (p / person)
-      :ARG1 (o / onion))
-
-# ::id 3721_B
-# ::snt Onions are being sliced by the person
-(s / slice-01
-      :ARG0 (p / person)
-      :ARG1 (o / Onion))
-
-# ::id 3815_A
-# ::snt The pepper is being sliced by a woman with a knife
-(s / slice-01
-      :ARG0 (w / woman
-            :ARG0-of (h / have-03
-                  :ARG1 (k / knife)))
-      :ARG1 (p / pepper))
-
-# ::id 3815_B
-# ::snt The woman with a knife is slicing a pepper
-(s / slice-01
-      :ARG0 (w / woman
-            :ARG0-of (h / have-03
-                  :ARG1 (k / knife)))
-      :ARG1 (p / pepper))
-
-# ::id 4499_A
-# ::snt The patient is being helped by the doctor
-(h / help-01
-      :ARG0 (d / doctor)
-      :ARG1 (p / patient))
-
-# ::id 4499_B
-# ::snt The doctor is helping the patient
-(h / help-01
-      :ARG0 (d / doctor)
-      :ARG2 (p / person
-            :ARG1-of (p2 / patient-01)))
-
-# ::id 3404_A
-# ::snt A person is folding a tortilla
-(f / fold-01
-      :ARG0 (p / person)
-      :ARG1 (t / tortilla))
-
-# ::id 3404_B
-# ::snt A tortilla is being folded by a person
-(f / fold-01
-      :ARG0 (p / person)
-      :ARG1 (t / tortilla))
-
-# ::id 1448_A
-# ::snt A man is spreading dough
-(s / spread-03
       :ARG0 (m / man)
-      :ARG1 (d / dough))
-
-# ::id 1448_B
-# ::snt Dough is being spread by a man
-(s / spread-03
-      :ARG0 (m / man)
-      :ARG1 (d / dirt))
-
-# ::id 1139_A
-# ::snt A man is driving a car
-(d / drive-01
-      :ARG0 (m / man)
-      :ARG1 (c / car))
-
-# ::id 1139_B
-# ::snt The car is being driven by a man
-(d / drive-01
-      :ARG0 (m / man)
-      :ARG1 (c / car))
-
-# ::id 8100_A
-# ::snt Mud is covering a topless woman
-(c / cover-03
-      :ARG0 (p / person
-            :name (n / name
-                  :op1 "Mud"))
-      :ARG1 (w / woman
-            :ARG1-of (p2 / pless-00)))
-
-# ::id 8100_B
-# ::snt A topless woman is being covered in mud
-(c / cover-01
-      :ARG1 (w / woman
-            :ARG0-of (p / pless-00))
-      :ARG2 (m / mud))
-
-# ::id 7715_A
-# ::snt Water is being squirted by a man into the mouth of a white dog with a squirt gun
-(s / squirt-01
-      :ARG0 (m / man)
-      :ARG1 (w / water)
-      :ARG2 (m2 / mouth
-            :part-of (d / dog
-                  :ARG1-of (w2 / white-03)))
-      :instrument (g / gun
-            :purpose (s2 / squirt-01)))
-
-# ::id 7715_B
-# ::snt A man is squirting water into the mouth of a white dog with a squirt gun
-(s / squirt-01
-      :ARG0 (m / man)
-      :ARG1 (w / water)
-      :ARG2 (m2 / mouth
-            :part-of (d / dog
-                  :ARG1-of (w2 / white-03)))
-      :instrument (g / gun
-            :purpose (s2 / squirt-01)))
-
-# ::id 5360_A
-# ::snt The lady is peeling the potato
-(p / peel-01
-      :ARG0 (l / lady)
-      :ARG1 (p2 / potato))
-
-# ::id 5360_B
-# ::snt A potato is being peeled by a woman
-(p / peel-01
-      :ARG0 (w / woman)
-      :ARG1 (p2 / potato))
+      :ARG1 (f / frog)
+      :ARG1-of (c / care-04
+            :polarity -))
 
 # ::id 1875_A
 # ::snt The food on the trays is being eaten by the kittens
@@ -549,190 +177,479 @@
       :ARG1 (f / food)
       :location (t / tray))
 
-# ::id 5180_A
-# ::snt Food is being deep fried by a woman
-(f / fry-01
-      :ARG0 (w / woman)
-      :ARG1 (f2 / food)
-      :ARG1-of (d / deep-02))
-
-# ::id 5180_B
-# ::snt A woman is frying some food
-(f / fry-01
-      :ARG0 (w / woman)
-      :ARG1 (f2 / food
-            :mod (s / some)))
-
-# ::id 7304_A
-# ::snt The man in the straw hat is smoking a cigarette
-(s / smoke-02
-      :ARG0 (m / man
-            :mod (h / hat
-                  :consist-of (s2 / straw)))
-      :ARG1 (c / cigarette))
-
-# ::id 7304_B
-# ::snt A cigarette is being smoked by the man in the straw hat
-(s / smoke-02
-      :ARG0 (m / man
-            :location (h / hat
-                  :consist-of (s2 / straw)))
-      :ARG1 (c / cigarette))
-
-# ::id 7488_A
-# ::snt A blue ball is being caught by the dog
-(c / catch-01
+# ::id 2273_A
+# ::snt A dog is biting a can
+(b / bite-01
       :ARG0 (d / dog)
-      :ARG1 (b / ball
-            :mod (b2 / blue)))
+      :ARG1 (c / can))
 
-# ::id 7488_B
-# ::snt The dog is catching a blue ball
-(c / catch-01
+# ::id 2273_B
+# ::snt A can is being bitten by a dog
+(b / bite-01
       :ARG0 (d / dog)
-      :ARG1 (b / ball
-            :mod (b2 / blue)))
+      :ARG1 (c / can))
 
-# ::id 4107_A
-# ::snt Some food is being eaten by a man
-(e / eat-01
+# ::id 2312_A
+# ::snt A camera is being hammered onto the nail by the man
+(h / hammer-02
       :ARG0 (m / man)
-      :ARG1 (f / food
-            :quant (s / some)))
+      :ARG1 (n / nail)
+      :ARG2 (c / camera))
 
-# ::id 4107_B
-# ::snt A man is eating some food
-(e / eat-01
+# ::id 2312_B
+# ::snt The man is hammering a nail with a camera
+(h / hammer-01
       :ARG0 (m / man)
-      :ARG1 (f / food
-            :quant (s / some)))
+      :ARG1 (n / nail)
+      :ARG2 (c / camera))
 
-# ::id 6415_A
-# ::snt A bike is being ridden by a person
-(r / ride-01
+# ::id 2346_A
+# ::snt A man is pouring a plate of shredded cheese into a pot of sauce
+(p / pour-01
+      :ARG0 (m / man)
+      :ARG1 (c / cheese
+            :ARG1-of (s / shred-01)
+            :part (p2 / plate))
+      :ARG2 (p3 / pot
+            :consist-of (s2 / sauce)))
+
+# ::id 2346_B
+# ::snt A man is pouring a plate of cheese which is shredded into a pot of sauce
+(p / pour-01
+      :ARG0 (m / man)
+      :ARG1 (c / cheese
+            :quant (p2 / plate)
+            :ARG1-of (s / shred-01
+                  :prep-into (p3 / pot
+                        :consist-of (s2 / sauce))))
+      :ARG2 p2)
+
+# ::id 2379_A
+# ::snt A person is slicing a carrot into pieces
+(s / slice-01
       :ARG0 (p / person)
-      :ARG1 (b / bike))
+      :ARG1 (c / carrot)
+      :ARG4 (p2 / piece))
 
-# ::id 6415_B
-# ::snt A person is riding a bike
-(r / ride-01
+# ::id 2379_B
+# ::snt A carrot is being sliced into pieces by a person
+(s / slice-01
       :ARG0 (p / person)
-      :ARG1 (b / bike))
+      :ARG1 (c / carrot)
+      :ARG4 (p2 / piece))
 
-# ::id 3055_A
-# ::snt A man is pouring oil into a pan
+# ::id 2684_A
+# ::snt A person is cutting a capsicum into pieces
+(c / cut-01
+      :ARG0 (p / person)
+      :ARG1 (c2 / capicum)
+      :ARG4 (p2 / piece))
+
+# ::id 2684_B
+# ::snt A capsicum is being cut into pieces by a person
+(c / cut-01
+      :ARG0 (p / person)
+      :ARG1 (c2 / capicum)
+      :ARG2 (p2 / piece))
+
+# ::id 2704_A
+# ::snt Noodles are being boiled in water by a woman
+(b / boil-01
+      :ARG0 (w / woman)
+      :ARG1 (n / noodle)
+      :ARG2 (w2 / water))
+
+# ::id 2704_B
+# ::snt A woman is boiling noodles in water
+(b / boil-01
+      :ARG0 (w / woman)
+      :ARG1 (n / noodle)
+      :ARG2 (w2 / water))
+
+# ::id 2892_A
+# ::snt The man is lifting weights
+(l / lift-01
+      :ARG0 (m / man)
+      :ARG1 (w / weight))
+
+# ::id 2892_B
+# ::snt Weights are being lifted by the man
+(l / lift-01
+      :ARG0 (m / man)
+      :ARG1 (l2 / light))
+
+# ::id 3053_A
+# ::snt A man is pouring oil into a skillet
 (p / pour-01
       :ARG0 (m / man)
       :ARG1 (o / oil)
-      :ARG2 (p2 / pan))
+      :ARG2 (s / skillet))
 
-# ::id 3055_B
+# ::id 3053_B
 # ::snt Oil is being poured into a skillet by a man
 (p / pour-01
       :ARG0 (m / man)
       :ARG1 (o / oil)
       :ARG2 (s / skillet))
 
-# ::id 7162_A
-# ::snt The black dog is climbing on a rock
-(c / climb-01
-      :ARG0 (d / dog
-            :ARG1-of (b / black-04))
-      :ARG1 (r / rock))
+# ::id 3080_A
+# ::snt Broccoli is being chopped by a woman
+(c / chop-01
+      :ARG0 (w / woman)
+      :ARG1 (c2 / ccoli))
 
-# ::id 7162_B
-# ::snt A rock is being climbed by the black dog
-(c / climb-01
-      :ARG0 (d / dog
-            :ARG1-of (b / black-04))
-      :ARG1 (r / rock))
+# ::id 3080_B
+# ::snt A woman is chopping broccoli
+(c / chop-01
+      :ARG0 (w / woman)
+      :ARG1 (b / broccoli))
 
-# ::id 5725_A
-# ::snt Hay is being eaten by a cow
+# ::id 3248_A
+# ::snt A woman is boiling eggs
+(b / boil-01
+      :ARG0 (w / woman)
+      :ARG1 (e / egg))
+
+# ::id 3248_B
+# ::snt Eggs are being boiled by a woman
+(b / boil-01
+      :ARG0 (w / woman)
+      :ARG1 (e / egg))
+
+# ::id 3288_A
+# ::snt A woman is grating carrots
+(g / grat-01
+      :ARG0 (w / woman)
+      :ARG1 (c / carrot))
+
+# ::id 3288_B
+# ::snt Carrots are being grated by a woman
+(g / grate-02
+      :ARG0 (w / woman)
+      :ARG1 (c / carrot))
+
+# ::id 3315_A
+# ::snt A woman is cooking a pork chop which is breaded
+(c / cook-01
+      :ARG0 (w / woman)
+      :ARG1 (c2 / chop-01
+            :ARG1 (p / pork)
+            :ARG1-of (b / bread-01)))
+
+# ::id 3315_B
+# ::snt A woman is cooking a breaded pork chop
+(c / cook-01
+      :ARG0 (w / woman)
+      :ARG1 (c2 / chop-01
+            :ARG1 (p / pork)
+            :ARG1-of (b / bread-01)))
+
+# ::id 3404_A
+# ::snt A person is folding a tortilla
+(f / fold-01
+      :ARG0 (p / person)
+      :ARG1 (t / tortilla))
+
+# ::id 3404_B
+# ::snt A tortilla is being folded by a person
+(f / fold-01
+      :ARG0 (p / person)
+      :ARG1 (t / tortilla))
+
+# ::id 3506_A
+# ::snt Garlic is being diced by the woman
+(d / diced-01
+      :ARG0 (w / woman)
+      :ARG1 (g / Garlic))
+
+# ::id 3506_B
+# ::snt The woman is dicing garlic
+(d / dine-01
+      :ARG0 (w / woman)
+      :ARG1 (g / garlic))
+
+# ::id 3536_A
+# ::snt Someone is cooking okra in a pan
+(c / cook-01
+      :ARG0 (s / someone)
+      :ARG1 (o / okra)
+      :instrument (p / pan))
+
+# ::id 3536_B
+# ::snt Okra is being cooked in a pan
+(c / cook-01
+      :ARG1 (o / okra)
+      :instrument (p / pan))
+
+# ::id 3564_A
+# ::snt Paper is being cut with scissors
+(c / cut-01
+      :ARG1 (p / paper)
+      :instrument (s / scissors))
+
+# ::id 3564_B
+# ::snt Someone is cutting some paper with scissors
+(c / cut-01
+      :ARG0 (s / someone)
+      :ARG1 (p / paper
+            :quant (s2 / some))
+      :instrument (s3 / scissors))
+
+# ::id 3590_A
+# ::snt A man is playing the drum
+(p / play-11
+      :ARG0 (m / man)
+      :ARG2 (d / drum))
+
+# ::id 3590_B
+# ::snt The drums are being played by a man
+(p / play-11
+      :ARG0 (m / man)
+      :ARG1 (d / drum))
+
+# ::id 3626_A
+# ::snt Someone is dropping the meat into a pan
+(d / drop-01
+      :ARG0 (s / someone)
+      :ARG1 (m / meat)
+      :ARG4 (p / pan))
+
+# ::id 3626_B
+# ::snt The meat is being dropped into a pan
+(d / drop-01
+      :ARG1 (m / meat)
+      :ARG4 (p / pan))
+
+# ::id 3637_A
+# ::snt A frog is being handled by the woman
+(h / handle-01
+      :ARG0 (w / woman)
+      :ARG1 (f / frog))
+
+# ::id 3637_B
+# ::snt The woman is handling a frog
+(h / handle-01
+      :ARG0 (w / woman)
+      :ARG1 (f / frog))
+
+# ::id 3657_A
+# ::snt A boy is filling a pitcher with water
+(f / fill-01
+      :ARG0 (b / boy)
+      :ARG1 (p / pitcher)
+      :ARG2 (w / water))
+
+# ::id 3657_B
+# ::snt A pitcher is being filled with water by a boy
+(f / fill-01
+      :ARG0 (b / boy)
+      :ARG1 (p / pitcher)
+      :ARG2 (w / water))
+
+# ::id 3721_A
+# ::snt The person is slicing onions
+(s / slice-01
+      :ARG0 (p / person)
+      :ARG1 (o / onion))
+
+# ::id 3721_B
+# ::snt Onions are being sliced by the person
+(s / slice-01
+      :ARG0 (p / person)
+      :ARG1 (o / Onion))
+
+# ::id 3743_A
+# ::snt A woman is playing a guitar
+(p / play-11
+      :ARG0 (w / woman)
+      :ARG2 (g / guitar))
+
+# ::id 3743_B
+# ::snt A guitar is being played by a woman
+(p / play-11
+      :ARG0 (w / woman)
+      :ARG1 (g / guitar))
+
+# ::id 3761_A
+# ::snt A person is throwing a cat at the ceiling
+(t / throw-01
+      :ARG0 (p / person)
+      :ARG1 (c / cat)
+      :ARG2 (c2 / ceiling))
+
+# ::id 3761_B
+# ::snt A cat is thrown at the ceiling by a person
+(t / throw-01
+      :ARG0 (p / person)
+      :ARG1 (c / cat)
+      :ARG2 (c2 / ceiling))
+
+# ::id 4025_A
+# ::snt A man is breaking tiles with his hands
+(b / break-01
+      :ARG0 (m / man
+            :part (h / hand))
+      :ARG1 (t / tile)
+      :ARG2 h)
+
+# ::id 4025_B
+# ::snt Tiles are being broken with his hands by a man
+(b / break-01
+      :ARG0 (m / man
+            :part (h / hand))
+      :ARG1 (t / tile)
+      :ARG2 h)
+
+# ::id 4109_A
+# ::snt A man is eating a pizza
 (e / eat-01
-      :ARG0 (c / cow)
-      :ARG1 (h / hay))
+      :ARG0 (m / man)
+      :ARG1 (p / pizza))
 
-# ::id 5725_B
-# ::snt A cow is eating hay
+# ::id 4109_B
+# ::snt A pizza is being eaten by a man
 (e / eat-01
-      :ARG0 (c / cow)
-      :ARG1 (h / hay))
+      :ARG0 (m / man)
+      :ARG1 (p / pizza))
 
-# ::id 7954_A
-# ::snt A basketball player is on the court floor and another one is grabbing the ball
+# ::id 4210_A
+# ::snt A woman is stroking a lemur
+(s / stroke-02
+      :ARG0 (w / woman)
+      :ARG1 (l / lemur))
+
+# ::id 4210_B
+# ::snt A lemur is being stroked by a woman
+(s / stroke-01
+      :ARG0 (w / woman)
+      :ARG1 (l / lemur))
+
+# ::id 4398_A
+# ::snt A paper plate is being cut by a man
+(c / cut-01
+      :ARG0 (m / man)
+      :ARG1 (p / plate
+            :consist-of (p2 / paper)))
+
+# ::id 4398_B
+# ::snt A man is cutting a paper plate
+(c / cut-01
+      :ARG0 (m / man)
+      :ARG1 (p / plate
+            :consist-of (p2 / paper)))
+
+# ::id 4499_A
+# ::snt The patient is being helped by the doctor
+(h / help-01
+      :ARG0 (d / doctor)
+      :ARG1 (p / patient))
+
+# ::id 4499_B
+# ::snt The doctor is helping the patient
+(h / help-01
+      :ARG0 (d / doctor)
+      :ARG2 (p / person
+            :ARG1-of (p2 / patient-01)))
+
+# ::id 4784_A
+# ::snt A soda is being opened and drunk by a woman
 (a / and
-      :op1 (b / be-located-at-91
-            :ARG1 (p / person
-                  :ARG0-of (p2 / play-01
-                        :ARG1 (b2 / basketball)))
-            :ARG2 (f / floor
-                  :mod (c / court)))
-      :op2 (g / grab-01
-            :ARG0 (p3 / person
-                  :ARG0-of (p4 / play-01
-                        :ARG2 b2)
-                  :mod (a2 / another))
-            :ARG1 (b3 / ball)))
+      :op1 (o / open-01
+            :ARG0 (w / woman)
+            :ARG1 (s / soda))
+      :op2 (d / drink-01
+            :ARG0 w
+            :ARG1 s))
 
-# ::id 7954_B
-# ::snt A basketball player is on the court floor and the ball is being grabbed by another one
+# ::id 4784_B
+# ::snt A woman is opening a soda and drinking it
 (a / and
-      :op1 (b / be-located-at-91
-            :ARG1 (p / person
-                  :ARG0-of (p2 / play-01
-                        :ARG1 (b2 / basketball)))
-            :ARG2 (f / floor
-                  :mod (c / court)))
-      :op2 (g / grab-01
-            :ARG0 (p3 / person
-                  :mod (a2 / another))
-            :ARG1 (b3 / ball)))
+      :op1 (o / open-01
+            :ARG0 (w / woman)
+            :ARG1 (s / soda))
+      :op2 (d / drink-01
+            :ARG0 w
+            :ARG1 s))
 
-# ::id 2248_A
-# ::snt Cereal is being eaten by the man
-(e / eat-01
+# ::id 4786_A
+# ::snt A woman is riding on an elephant
+(r / ride-01
+      :ARG0 (w / woman)
+      :ARG1 (e / elephant))
+
+# ::id 4786_B
+# ::snt An elephant is being ridden by a woman
+(r / ride-01
+      :ARG0 (w / woman)
+      :ARG1 (e / elephant))
+
+# ::id 4878_A
+# ::snt A man is mixing vegetables in a pot
+(m / mix-01
+      :ARG0 (m2 / man)
+      :ARG1 (v / vegetable)
+      :ARG2 (p / pot))
+
+# ::id 4878_B
+# ::snt Vegetables are being mixed in a pot by a man
+(m / mix-01
+      :ARG0 (m2 / man)
+      :ARG1 (v / vegetable)
+      :ARG2 (p / pot))
+
+# ::id 4963_A
+# ::snt Garlic is being chopped by a woman
+(c / chop-01
+      :ARG0 (w / woman)
+      :ARG1 (g / Garlic))
+
+# ::id 4963_B
+# ::snt A woman is chopping garlic
+(c / chop-01
+      :ARG0 (w / woman)
+      :ARG1 (g / garlic))
+
+# ::id 4981_A
+# ::snt Something is being fried by a woman
+(f / fry-01
+      :ARG0 (w / woman)
+      :ARG1 (s / something))
+
+# ::id 4981_B
+# ::snt A woman is frying something
+(f / fry-01
+      :ARG0 (w / woman)
+      :ARG1 (s / something))
+
+# ::id 5050_A
+# ::snt A door is being opened by a man
+(o / open-01
       :ARG0 (m / man)
-      :ARG1 (c / cereal))
+      :ARG1 (d / door))
 
-# ::id 2248_B
-# ::snt The man is eating cereal
-(e / eat-01
+# ::id 5050_B
+# ::snt A man is opening a door
+(o / open-01
       :ARG0 (m / man)
-      :ARG1 (c / cereal))
+      :ARG1 (d / door))
 
-# ::id 7878_A
-# ::snt Three people are driving ATVs
-(d / drive-01
-      :ARG0 (p / person
-            :quant 3)
-      :ARG1 (v / vehicle
-            :mod (s / sport)
-            :mod (e / electric)))
+# ::id 5201_A
+# ::snt Some sticky goo is being pulled out of a bowl by a woman
+(p / pull-out-02
+      :ARG0 (w / woman)
+      :ARG1 (g / goo
+            :ARG1-of (s / sticky-03)
+            :mod (s2 / some))
+      :ARG2 (b / bowl))
 
-# ::id 7878_B
-# ::snt ATVs are being driven by three people
-(d / drive-01
-      :ARG0 (p / person
-            :quant 3)
-      :ARG1 (v / vehicle
-            :mod (e / electric)))
-
-# ::id 1680_A
-# ::snt Some oil is being poured on the tomatoes by the man
-(p / pour-01
-      :ARG0 (m / man)
-      :ARG1 (o / oil
-            :quant (s / some))
-      :ARG2 (t / tomato))
-
-# ::id 1680_B
-# ::snt The man is pouring some oil on the tomatoes
-(p / pour-01
-      :ARG0 (m / man)
-      :ARG1 (o / oil
-            :quant (s / some))
-      :ARG2 (t / tomato))
+# ::id 5201_B
+# ::snt A woman is pulling some sticky goo out of a bowl
+(p / pull-out-02
+      :ARG0 (w / woman)
+      :ARG1 (g / goo
+            :ARG1-of (s / sticky-03)
+            :mod (s2 / some))
+      :ARG2 (b / bowl))
 
 # ::id 5374_A
 # ::snt An octopus is being sliced by a woman
@@ -746,72 +663,206 @@
       :ARG0 (w / woman)
       :ARG1 (o / octopus))
 
-# ::id 6689_A
-# ::snt Four middle eastern children, three girls and one boy, are climbing on the grotto with a pink interior
-(c / climb-01
-      :ARG0 (a / and
-            :op1 (c2 / child
-                  :quant 4
-                  :mod (w / world-region
-                        :name (n / name
-                              :op1 "Middle"
-                              :op2 "East")))
-            :op2 (g / girl
-                  :quant 3)
-            :op3 (b / boy
-                  :quant 1))
-      :ARG1 (g2 / grotto
-            :ARG0-of (h / have-03
-                  :ARG1 (ii / interior
-                        :ARG1-of (p / pink-04)))))
+# ::id 5399_A
+# ::snt Eggs are being cracked into a bowl by a woman
+(c / crack-01
+      :ARG0 (w / woman)
+      :ARG1 (e / egg)
+      :location (b / bowl))
 
-# ::id 6689_B
-# ::snt The grotto with a pink interior is being climbed by four middle eastern children, three girls and one boy
-(c / climb-01
-      :ARG0 (a / and
-            :op1 (c2 / child
-                  :quant 4
-                  :location (w / world-region
-                        :name (n / name
-                              :op1 "Middle"
-                              :op2 "East")))
-            :op2 (g / girl
-                  :quant 3)
-            :op3 (b / boy
-                  :quant 1))
-      :ARG1 (g2 / grotto
-            :ARG0-of (h / have-03
-                  :ARG1 (ii / interior
-                        :ARG1-of (p / pink-04)))))
+# ::id 5399_B
+# ::snt A woman is cracking eggs into a bowl
+(c / crack-01
+      :ARG0 (w / woman)
+      :ARG1 (e / egg)
+      :destination (b / bowl))
 
-# ::id 642_A
-# ::snt A person is climbing a rock with a rope, which is pink
-(c / climb-01
-      :ARG0 (p / person)
-      :ARG1 (r / rock
-            :ARG1-of (p2 / pink-04))
-      :instrument (r2 / rope))
+# ::id 5401_A
+# ::snt A woman is placing skewers onto a rack
+(p / place-01
+      :ARG0 (w / woman)
+      :ARG1 (s / skewer)
+      :ARG2 (r / rack))
 
-# ::id 642_B
-# ::snt A rock is being climbed by a person with a rope, which is pink
-(c / climb-01
-      :ARG0 (p / person
-            :ARG0-of (h / have-03
-                  :ARG1 (r / rope
-                        :ARG1-of (p2 / pink-04))))
-      :ARG1 (r2 / rock))
+# ::id 5401_B
+# ::snt Skewers are being placed onto a rack by a woman
+(p / place-01
+      :ARG0 (w / woman)
+      :ARG1 (s / spoon)
+      :ARG2 (r / rack))
 
-# ::id 4380_A
-# ::snt A shoe is being tied by a man
-(t / tie-01
+# ::id 5446_A
+# ::snt A woman is frying fish
+(f / fry-01
+      :ARG0 (w / woman)
+      :ARG1 (f2 / fish))
+
+# ::id 5446_B
+# ::snt Fish is being fried by a woman
+(f / fry-01
+      :ARG0 (w / woman)
+      :ARG1 (f2 / fish))
+
+# ::id 5464_A
+# ::snt Grass is being mowed by a man
+(m / mow-01
+      :ARG0 (m2 / man)
+      :ARG1 (a / ass))
+
+# ::id 5464_B
+# ::snt A man is mowing grass
+(m / mow-01
+      :ARG0 (m2 / man)
+      :ARG1 (g / grass))
+
+# ::id 5561_A
+# ::snt A horse is being ridden by a girl
+(r / ride-01
+      :ARG0 (g / girl)
+      :ARG1 (h / horse))
+
+# ::id 5561_B
+# ::snt A girl is riding a horse
+(r / ride-01
+      :ARG0 (g / girl)
+      :ARG1 (h / horse))
+
+# ::id 5588_A
+# ::snt A cupcake is being eaten by a girl
+(e / eat-01
+      :ARG0 (g / girl)
+      :ARG1 (c / cupcake))
+
+# ::id 5588_B
+# ::snt A girl is eating a cupcake
+(e / eat-01
+      :ARG0 (g / girl)
+      :ARG1 (c / cupcake))
+
+# ::id 5624_A
+# ::snt A chef is cleaning a bowl of soup
+(c / clean-01
+      :ARG0 (c2 / chef)
+      :ARG1 (b / bowl
+            :ARG2-of (s / soup-01)))
+
+# ::id 5624_B
+# ::snt A bowl of soup is being cleaned by a chef
+(c / clean-01
+      :ARG0 (c2 / chef)
+      :ARG1 (b / bowl
+            :consist-of (s / soup)))
+
+# ::id 5642_A
+# ::snt Someone is stirring a pot of chili with a spoon
+(s / stir-01
+      :ARG0 (s2 / someone)
+      :ARG1 (p / pot
+            :consist-of (c / chili))
+      :instrument (s3 / spoon))
+
+# ::id 5642_B
+# ::snt A pot of chili is being stirred by someone with a spoon
+(s / stir-01
+      :ARG0 (s2 / someone)
+      :ARG1 (p / pot
+            :consist-of (c / chili))
+      :instrument (s3 / spoon))
+
+# ::id 5696_A
+# ::snt Some cheese is being put on a pizza by a man
+(p / put-01
       :ARG0 (m / man)
-      :ARG1 (s / shoe))
+      :ARG1 (c / cheese
+            :quant (s / some))
+      :ARG2 (p2 / pizza))
 
-# ::id 4380_B
-# ::snt A man is tying a shoe
-(t / tie-01
+# ::id 5696_B
+# ::snt A man is putting some cheese on a pizza
+(p / put-01
       :ARG0 (m / man)
-      :ARG1 (s / shoe))
+      :ARG1 (c / cheese
+            :quant (s / some))
+      :ARG2 (p2 / pizza))
+
+# ::id 5788_A
+# ::snt A fish is being cut by a man
+(c / cut-01
+      :ARG0 (m / man)
+      :ARG1 (f / fish))
+
+# ::id 5788_B
+# ::snt A man is cutting a fish
+(c / cut-01
+      :ARG0 (m / man)
+      :ARG1 (f / fish))
+
+# ::id 5790_A
+# ::snt A man is slicing a fish
+(s / slice-01
+      :ARG0 (m / man)
+      :ARG1 (f / fish))
+
+# ::id 5790_B
+# ::snt A fish is being sliced by a man
+(s / slice-01
+      :ARG0 (m / man)
+      :ARG1 (f / fish))
+
+# ::id 5824_A
+# ::snt A guitar is being played by a girl
+(p / play-11
+      :ARG0 (g / girl)
+      :ARG1 (g2 / guitar))
+
+# ::id 5824_B
+# ::snt A girl is playing a guitar
+(p / play-11
+      :ARG0 (g / girl)
+      :ARG2 (g2 / guitar))
+
+# ::id 5835_A
+# ::snt A man is riding a motorcycle
+(r / ride-01
+      :ARG0 (m / man)
+      :ARG1 (m2 / motorcycle))
+
+# ::id 5835_B
+# ::snt A motorcycle is being ridden by a man
+(r / ride-01
+      :ARG0 (m / man)
+      :ARG1 (m2 / motorcycle))
+
+# ::id 5905_A
+# ::snt Ingredients are being poured into a bowl by a woman
+(p / pour-01
+      :ARG0 (w / woman)
+      :ARG1 (ii / ingredient)
+      :ARG2 (b / bowl))
+
+# ::id 5905_B
+# ::snt A woman is pouring ingredients into a bowl
+(p / pour-01
+      :ARG0 (w / woman)
+      :ARG1 (ii / ingredient)
+      :ARG2 (b / bowl))
+
+# ::id 6355_A
+# ::snt A woman in a red dress is playing an instrument
+(p / play-11
+      :ARG0 (w / woman
+            :ARG1-of (d / dress-01
+                  :ARG1-of (r / red-02)))
+      :ARG2 (ii / instrument))
+
+# ::id 6355_B
+# ::snt An instrument is being played by a woman in a red dress
+(p / play-11
+      :ARG0 (w / woman
+            :ARG0-of (w2 / wear-01
+                  :ARG1 (d / dress
+                        :ARG1-of (r / red-02))))
+      :ARG1 (ii / instrument))
 
 # ::id 6495_A
 # ::snt The man is taking a picture of himself and another guy
@@ -833,92 +884,324 @@
                   :op2 (g / guy
                         :mod (a2 / another)))))
 
-# ::id 4246_A
-# ::snt A song is being sung by a clown
-(s / sing-01
-      :ARG0 (c / clown)
-      :ARG1 (s2 / song))
+# ::id 6515_A
+# ::snt A girl in a brown dress is being surrounded by children and is closing her eyes
+(a / and
+      :op1 (s / surround-01
+            :ARG1 (c / child)
+            :ARG2 (g / girl
+                  :ARG0-of (w / wear-01
+                        :ARG1 (d / dress
+                              :mod (b / brown)))
+                  :part (e / eye)))
+      :op2 (c2 / close-01
+            :ARG0 g
+            :ARG1 e))
 
-# ::id 4246_B
-# ::snt A clown is singing
-(s / sing-01
-      :ARG0 (c / clown))
+# ::id 6515_B
+# ::snt Children are surrounding a girl in a brown dress who is closing her eyes
+(s / surround-01
+      :ARG1 (c / child)
+      :ARG2 (g / girl
+            :ARG0-of (w / wear-01
+                  :ARG1 (d / dress
+                        :mod (b / brown)))
+            :ARG0-of (c2 / close-01
+                  :ARG1 (e / eye))
+            :part e))
 
-# ::id 5300_A
-# ::snt Potatoes are being sliced by a man
-(s / slice-01
-      :ARG0 (m / man)
-      :ARG1 (t / tomato))
+# ::id 6727_A
+# ::snt A child is making a snow ball
+(m / make-01
+      :ARG0 (c / child)
+      :ARG1 (b / ball
+            :mod (s / snow)))
 
-# ::id 5300_B
-# ::snt A man is slicing potatoes
-(s / slice-01
-      :ARG0 (m / man)
-      :ARG1 (p / potato))
+# ::id 6727_B
+# ::snt A snow ball is being made by a child
+(m / make-01
+      :ARG0 (c / child)
+      :ARG1 (b / ball
+            :mod (s / snow)))
 
-# ::id 7668_A
-# ::snt A man is performing a handstand on the beach
+# ::id 6785_A
+# ::snt A man is holding a mask in his raised hand
+(h / hold-01
+      :ARG0 (m / man
+            :part (h2 / hand
+                  :ARG1-of (r / raise-01)))
+      :ARG1 (m2 / mask)
+      :ARG2 h2)
+
+# ::id 6785_B
+# ::snt A mask is being held by a man in his raised hand
+(h / hold-01
+      :ARG0 (m / man
+            :part (h2 / hand
+                  :ARG1-of (r / raise-01)))
+      :ARG1 (m2 / mask)
+      :ARG2 h2)
+
+# ::id 6957_A
+# ::snt Music is being performed by four people outdoors
 (p / perform-01
-      :ARG0 (m / man)
-      :ARG1 (h / handstand)
-      :location (b / beach))
+      :ARG0 (p2 / person
+            :quant 4)
+      :ARG1 (m / music)
+      :location (o / outdoors))
 
-# ::id 7668_B
-# ::snt A handstand is being performed by a man on the beach
+# ::id 6957_B
+# ::snt Four people are performing music outdoors
 (p / perform-01
-      :ARG0 (m / man)
-      :ARG1 (h / handstand)
-      :location (b / beach))
+      :ARG0 (p2 / person
+            :quant 4)
+      :ARG1 (m / music)
+      :location (o / outdoors))
 
-# ::id 5183_A
-# ::snt A man is petting two dogs
-(p / pet-01
-      :ARG0 (m / man)
-      :ARG1 (d / dog
-            :quant 2))
+# ::id 6997_A
+# ::snt An opponent is tackling a soccer player
+(t / tackle-01
+      :ARG0 (p / person
+            :ARG0-of (o / oppose-01))
+      :ARG1 (p2 / person
+            :ARG0-of (p3 / play-01
+                  :ARG1 (s / soccer))))
 
-# ::id 5183_B
-# ::snt Two dogs are being petted by a man
-(p / pet-01
-      :ARG0 (m / man)
-      :ARG1 (d / dog
-            :quant 2))
+# ::id 6997_B
+# ::snt A soccer player is being tackled by his opponent
+(t / tackle-01
+      :ARG0 (p / person
+            :ARG0-of (o / oppose-01
+                  :ARG0-of (p2 / play-01
+                        :ARG1 (s / soccer)))
+            :ARG1-of o)
+      :ARG1 p)
 
-# ::id 2091_A
-# ::snt A white car is being driven by the man
-(d / drive-01
-      :ARG0 (m / man)
-      :ARG1 (c / car
-            :ARG1-of (w / white-03)))
+# ::id 7035_A
+# ::snt The motocross rider is wearing blue and black pants
+(w / wear-01
+      :ARG0 (p / person
+            :ARG0-of (r / ride-01
+                  :ARG1 (m / motocross)))
+      :ARG1 (a / and
+            :op1 (p2 / pant
+                  :mod (b / blue))
+            :op2 (p3 / pant
+                  :ARG1-of (b2 / black-04))))
 
-# ::id 2091_B
-# ::snt A person is driving the white car
-(d / drive-01
-      :ARG0 (p / person)
-      :ARG1 (c / car
-            :ARG1-of (w / white-03)))
+# ::id 7035_B
+# ::snt Blue and black pants are being worn by the motocross rider
+(w / wear-01
+      :ARG0 (p / person
+            :ARG0-of (r / ride-01
+                  :ARG1 (m / motorcycle)))
+      :ARG1 (a / and
+            :op1 (p2 / pants
+                  :ARG1-of (b / blue-03))
+            :op2 (p3 / pants
+                  :ARG1-of (b2 / black-04))))
 
-# ::id 4508_A
-# ::snt A woman is being massaged by a man
-(m / massage-01
-      :ARG0 (m2 / man)
-      :ARG1 (w / woman))
-
-# ::id 4508_B
-# ::snt A man is massaging a woman
-(m / massage-01
-      :ARG0 (m2 / man)
-      :ARG1 (w / woman))
-
-# ::id 4896_A
-# ::snt A woman is being carried by a man
+# ::id 7215_A
+# ::snt A colored toy is being carried by a brown dog in the grass
 (c / carry-01
-      :ARG0 (m / man)
-      :ARG1 (w / woman))
+      :ARG0 (d / dog
+            :ARG1-of (b / brown-02))
+      :ARG1 (t / toy
+            :ARG1-of (c2 / color-01))
+      :location (g / grass))
 
-# ::id 4896_B
-# ::snt A man is carrying a woman
+# ::id 7215_B
+# ::snt A brown dog is carrying a colored toy in the grass
 (c / carry-01
-      :ARG0 (m / man)
-      :ARG1 (w / woman))
+      :ARG0 (d / dog
+            :mod (b / brown))
+      :ARG1 (t / toy
+            :ARG1-of (c2 / color-01))
+      :location (g / grass))
+
+# ::id 7233_A
+# ::snt A ball is being caught by a dog in mid air
+(c / catch-01
+      :ARG0 (d / dog)
+      :ARG1 (b / ball)
+      :location (a / air
+            :mod (m / mid)))
+
+# ::id 7233_B
+# ::snt A dog is catching a ball in mid air
+(c / catch-01
+      :ARG0 (d / dog)
+      :ARG1 (b / ball)
+      :location (a / air
+            :mod (m / mid)))
+
+# ::id 7311_A
+# ::snt A cigarette is being smoked by the man in the straw hat
+(s / smoke-02
+      :ARG0 (m / man
+            :location (h / hat
+                  :consist-of (s2 / straw)))
+      :ARG1 (c / cigarette))
+
+# ::id 7311_B
+# ::snt A man is wearing a straw hat and smoking a cigarette
+(a / and
+      :op1 (w / wear-01
+            :ARG0 (m / man)
+            :ARG1 (h / hat
+                  :consist-of (s / straw)))
+      :op2 (s2 / smoke-02
+            :ARG0 m
+            :ARG1 (c / cigarette)))
+
+# ::id 7416_A
+# ::snt A dog is chasing a ball on the grass
+(c / chase-01
+      :ARG0 (d / dog)
+      :ARG1 (b / ball)
+      :location (g / grass))
+
+# ::id 7416_B
+# ::snt A ball is being chased by a dog on the grass
+(c / chase-01
+      :ARG0 (d / dog)
+      :ARG1 (b / ball)
+      :location (g / grass))
+
+# ::id 7878_A
+# ::snt Three people are driving ATVs
+(d / drive-01
+      :ARG0 (p / person
+            :quant 3)
+      :ARG1 (v / vehicle
+            :mod (s / sport)
+            :mod (e / electric)))
+
+# ::id 7878_B
+# ::snt ATVs are being driven by three people
+(d / drive-01
+      :ARG0 (p / person
+            :quant 3)
+      :ARG1 (v / vehicle
+            :mod (e / electric)))
+
+# ::id 8093_A
+# ::snt The little boy is riding a bicycle in a race
+(r / ride-01
+      :ARG0 (b / boy
+            :mod (l / little))
+      :ARG1 (b2 / bicycle)
+      :ARG4 (r2 / race-02))
+
+# ::id 8093_B
+# ::snt A bicycle is being ridden by the little boy in a race
+(r / ride-01
+      :ARG0 (b / boy
+            :mod (l / little))
+      :ARG1 (b2 / bicycle)
+      :ARG3 (r2 / race-02))
+
+# ::id 8100_A
+# ::snt Mud is covering a topless woman
+(c / cover-03
+      :ARG0 (p / person
+            :name (n / name
+                  :op1 "Mud"))
+      :ARG1 (w / woman
+            :ARG1-of (p2 / pless-00)))
+
+# ::id 8100_B
+# ::snt A topless woman is being covered in mud
+(c / cover-01
+      :ARG1 (w / woman
+            :ARG0-of (p / pless-00))
+      :ARG2 (m / mud))
+
+# ::id 8298_A
+# ::snt Sunglasses are being worn by a boy
+(w / wear-01
+      :ARG0 (b / boy)
+      :ARG1 (s / sunglasses))
+
+# ::id 8298_B
+# ::snt A boy is wearing sunglasses
+(w / wear-01
+      :ARG0 (b / boy)
+      :ARG1 (s / sunglasses))
+
+# ::id 8525_A
+# ::snt A rainbow afghan is being held by a girl in gold and purple
+(h / hold-01
+      :ARG0 (g / girl
+            :ARG0-of (w / wear-01
+                  :ARG1 (a / and
+                        :op1 (g2 / gold)
+                        :op2 (p / purple))))
+      :ARG1 (a2 / afghan
+            :mod (r / rainbow)))
+
+# ::id 8525_B
+# ::snt A girl in gold and purple is holding a rainbow afghan
+(h / hold-01
+      :ARG0 (g / girl
+            :ARG1-of (c / color-01
+                  :ARG2 (g2 / gold))
+            :ARG1-of (c2 / color-01
+                  :ARG2 (p / purple)))
+      :ARG1 (a / afghan
+            :mod (r / rainbow)))
+
+# ::id 8586_A
+# ::snt An Arabic man is wearing a white hat
+(w / wear-01
+      :ARG0 (m / man
+            :mod (e / ethnic-group
+                  :name (n / name
+                        :op1 "Arabic")))
+      :ARG1 (h / hat
+            :ARG1-of (w2 / white-02)))
+
+# ::id 8586_B
+# ::snt A white hat is being worn by an Arabic man
+(w / wear-01
+      :ARG0 (m / man
+            :mod (e / ethnic-group
+                  :name (n / name
+                        :op1 "Arabic")))
+      :ARG1 (h / hat
+            :ARG1-of (w2 / white-02)))
+
+# ::id 9087_A
+# ::snt A veteran is showing different things from a war to some people
+(s / show-01
+      :ARG0 (v / veteran)
+      :ARG1 (t / thing
+            :ARG1-of (d / differ-02
+                  :ARG2 (w / war)))
+      :ARG2 (p / person
+            :mod (s2 / some)))
+
+# ::id 9087_B
+# ::snt Different things from a war are being shown to some people by a veteran
+(s / show-01
+      :ARG0 (v / veteran)
+      :ARG1 (t / thing
+            :ARG1-of (d / differ-02
+                  :ARG2 (w / war)))
+      :ARG2 (p / person
+            :mod (s2 / some)))
+
+# ::id 9184_A
+# ::snt A ball is being chased by a yellow dog
+(c / chase-01
+      :ARG0 (d / dog
+            :ARG1-of (y / yellow-02))
+      :ARG1 (b / ball))
+
+# ::id 9184_B
+# ::snt A yellow dog is chasing a ball
+(c / chase-01
+      :ARG0 (d / dog
+            :ARG1-of (y / yellow-02))
+      :ARG1 (b / ball))
 

@@ -75,8 +75,8 @@ class AMR:
         patient = self.find_concept(self.find_argument(self.graph.top, ":ARG1"))
         # :ARG1 n'est pas toujours un patient -->
         # !!! DECOMMENTER POUR TESTER !!!
-        # if patient == None:
-            # patient = self.find_concept(self.find_argument(self.graph.top, ":ARG2"))
+        if patient == None:
+            patient = self.find_concept(self.find_argument(self.graph.top, ":ARG2"))
 
         # !!! DECOMMENTER POUR TESTER PHRASES NEGATIVES !!!
         # negation = False

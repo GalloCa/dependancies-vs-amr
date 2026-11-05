@@ -144,6 +144,6 @@ def process(name, path):
         )
 
 if __name__ == "__main__":
-    file = "../selection/sick_selection.tsv"
+    file = "../selection/corpus.tsv"
     path = "../output"
     process(file, path)

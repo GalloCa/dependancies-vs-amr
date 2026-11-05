@@ -1,0 +1,81 @@
+pair_ID	sentence_A	sentence_B	relatedness_score	passive_side	verb_lemma	categories
+391	A man with paint covered clothes is sitting outside in a busy area writing something	A man is wearing clothes that are covered with paint and is sitting outside in a busy area writing something	4.8	B	cover	rich_structure
+642	A person is climbing a rock with a rope, which is pink	A rock is being climbed by a person with a rope, which is pink	5	B	climb	voix_simple
+947	Some corndogs are being eaten by two toddlers who are in a wagon, which is really small	Two toddlers are eating corndogs in a wagon, which is really small	4.8	A	eat	voix_simple
+1071	A pink shirt with white writing on it is being worn by a girl who is lying in the grass	A girl is wearing a pink shirt with white writing on it and is lying in the grass	4.5	A	wear	voix_simple
+1333	The woman is measuring the other woman	A woman is being measured by another woman	4.9	B	measure	voix_simple
+1378	A steak is being rinsed with water by a person	A person is rinsing a steak with water	5	A	rinse	voix_simple
+1484	The oil is being stirred by a man	The man is stirring oil	4.9	A	stir	voix_simple
+1607	A snake is being fed a mouse by a man	One man is feeding a mouse to the snake	4.7	A	feed	datif
+1705	A frog is being held carelessly by a man	A man is carelessly holding a frog	4.8	A	hold	voix_simple
+1875	The food on the trays is being eaten by the kittens	The kittens are eating the food on the trays	4.8	A	eat	voix_simple
+2273	A dog is biting a can	A can is being bitten by a dog	5	B	bite	voix_simple
+2312	A camera is being hammered onto the nail by the man	The man is hammering a nail with a camera	4.3	A	hammer	voix_simple
+2346	A man is pouring a plate of shredded cheese into a pot of sauce	A man is pouring a plate of cheese which is shredded into a pot of sauce	5	B	shred	rich_structure
+2379	A person is slicing a carrot into pieces	A carrot is being sliced into pieces by a person	5	B	slice	voix_simple
+2684	A person is cutting a capsicum into pieces	A capsicum is being cut into pieces by a person	4.9	B	cut	voix_simple
+2704	Noodles are being boiled in water by a woman	A woman is boiling noodles in water	5	A	boil	voix_simple
+2892	The man is lifting weights	Weights are being lifted by the man	4.9	B	lift	voix_simple
+3053	A man is pouring oil into a skillet	Oil is being poured into a skillet by a man	5	B	pour	voix_simple
+3080	Broccoli is being chopped by a woman	A woman is chopping broccoli	4.9	A	chop	voix_simple
+3248	A woman is boiling eggs	Eggs are being boiled by a woman	4.9	B	boil	voix_simple
+3288	A woman is grating carrots	Carrots are being grated by a woman	5	B	grate	voix_simple
+3315	A woman is cooking a pork chop which is breaded	A woman is cooking a breaded pork chop	4.8	A	bread	rich_structure
+3404	A person is folding a tortilla	A tortilla is being folded by a person	5	B	fold	voix_simple
+3506	Garlic is being diced by the woman	The woman is dicing garlic	4.9	A	dice	voix_simple
+3536	Someone is cooking okra in a pan	Okra is being cooked in a pan	4.9	B	cook	rich_structure
+3564	Paper is being cut with scissors	Someone is cutting some paper with scissors	4.7	A	cut	rich_structure
+3590	A man is playing the drum	The drums are being played by a man	4.8	B	play	voix_simple
+3626	Someone is dropping the meat into a pan	The meat is being dropped into a pan	4.7	B	drop	rich_structure
+3637	A frog is being handled by the woman	The woman is handling a frog	5	A	handle	voix_simple
+3657	A boy is filling a pitcher with water	A pitcher is being filled with water by a boy	5	B	fill	voix_simple
+3721	The person is slicing onions	Onions are being sliced by the person	4.9	B	slice	voix_simple
+3743	A woman is playing a guitar	A guitar is being played by a woman	4.7	B	play	voix_simple
+3761	A person is throwing a cat at the ceiling	A cat is thrown at the ceiling by a person	4.9	B	throw	voix_simple
+4025	A man is breaking tiles with his hands	Tiles are being broken with his hands by a man	4.9	B	break	voix_simple
+4109	A man is eating a pizza	A pizza is being eaten by a man	4.9	B	eat	voix_simple
+4210	A woman is stroking a lemur	A lemur is being stroked by a woman	5	B	stroke	voix_simple
+4398	A paper plate is being cut by a man	A man is cutting a paper plate	5	A	cut	voix_simple
+4499	The patient is being helped by the doctor	The doctor is helping the patient	4.9	A	help	voix_simple
+4784	A soda is being opened and drunk by a woman	A woman is opening a soda and drinking it	4.8	A	open	voix_simple
+4786	A woman is riding on an elephant	An elephant is being ridden by a woman	4.9	B	ride	prepositional_object
+4878	A man is mixing vegetables in a pot	Vegetables are being mixed in a pot by a man	4.9	B	mix	voix_simple
+4963	Garlic is being chopped by a woman	A woman is chopping garlic	4.7	A	chop	voix_simple
+4981	Something is being fried by a woman	A woman is frying something	4.8	A	fry	voix_simple
+5050	A door is being opened by a man	A man is opening a door	5	A	open	voix_simple
+5201	Some sticky goo is being pulled out of a bowl by a woman	A woman is pulling some sticky goo out of a bowl	5	A	pull	voix_simple
+5374	An octopus is being sliced by a woman	A woman is slicing an octopus	5	A	slice	voix_simple
+5399	Eggs are being cracked into a bowl by a woman	A woman is cracking eggs into a bowl	4.9	A	crack	voix_simple
+5401	A woman is placing skewers onto a rack	Skewers are being placed onto a rack by a woman	4.9	B	place	voix_simple
+5446	A woman is frying fish	Fish is being fried by a woman	5	B	fry	voix_simple
+5464	Grass is being mowed by a man	A man is mowing grass	5	A	mow	voix_simple
+5561	A horse is being ridden by a girl	A girl is riding a horse	4.8	A	ride	voix_simple
+5588	A cupcake is being eaten by a girl	A girl is eating a cupcake	5	A	eat	voix_simple
+5624	A chef is cleaning a bowl of soup	A bowl of soup is being cleaned by a chef	4.8	B	clean	voix_simple
+5642	Someone is stirring a pot of chili with a spoon	A pot of chili is being stirred by someone with a spoon	5	B	stir	voix_simple
+5696	Some cheese is being put on a pizza by a man	A man is putting some cheese on a pizza	5	A	put	voix_simple
+5788	A fish is being cut by a man	A man is cutting a fish	4.9	A	cut	voix_simple
+5790	A man is slicing a fish	A fish is being sliced by a man	4.9	B	slice	voix_simple
+5824	A guitar is being played by a girl	A girl is playing a guitar	4.8	A	play	voix_simple
+5835	A man is riding a motorcycle	A motorcycle is being ridden by a man	5	B	ride	voix_simple
+5905	Ingredients are being poured into a bowl by a woman	A woman is pouring ingredients into a bowl	4.815	A	pour	voix_simple
+6355	A woman in a red dress is playing an instrument	An instrument is being played by a woman in a red dress	4.9	B	play	voix_simple
+6495	The man is taking a picture of himself and another guy	A picture of himself and another guy is being taken by the man	4.4	B	take	voix_simple
+6515	A girl in a brown dress is being surrounded by children and is closing her eyes	Children are surrounding a girl in a brown dress who is closing her eyes	4.8	A	surround	voix_simple
+6727	A child is making a snow ball	A snow ball is being made by a child	5	B	make	voix_simple
+6785	A man is holding a mask in his raised hand	A mask is being held by a man in his raised hand	5	B	hold	voix_simple
+6957	Music is being performed by four people outdoors	Four people are performing music outdoors	4.9	A	perform	voix_simple
+6997	An opponent is tackling a soccer player	A soccer player is being tackled by his opponent	4.9	B	tackle	voix_simple
+7035	The motocross rider is wearing blue and black pants	Blue and black pants are being worn by the motocross rider	5	B	wear	voix_simple
+7215	A colored toy is being carried by a brown dog in the grass	A brown dog is carrying a colored toy in the grass	4.7	A	carry	voix_simple
+7233	A ball is being caught by a dog in mid air	A dog is catching a ball in mid air	4.9	A	catch	voix_simple
+7311	A cigarette is being smoked by the man in the straw hat	A man is wearing a straw hat and smoking a cigarette	4.8	A	smoke	voix_simple
+7416	A dog is chasing a ball on the grass	A ball is being chased by a dog on the grass	4.9	B	chase	voix_simple
+7878	Three people are driving ATVs	ATVs are being driven by three people	5	B	drive	voix_simple
+8093	The little boy is riding a bicycle in a race	A bicycle is being ridden by the little boy in a race	4.8	B	ride	voix_simple
+8100	Mud is covering a topless woman	A topless woman is being covered in mud	5	B	cover	rich_structure
+8298	Sunglasses are being worn by a boy	A boy is wearing sunglasses	4.9	A	wear	voix_simple
+8525	A rainbow afghan is being held by a girl in gold and purple	A girl in gold and purple is holding a rainbow afghan	5	A	hold	voix_simple
+8586	An Arabic man is wearing a white hat	A white hat is being worn by an Arabic man	4.9	B	wear	voix_simple
+9087	A veteran is showing different things from a war to some people	Different things from a war are being shown to some people by a veteran	4.9	B	show	datif
+9184	A ball is being chased by a yellow dog	A yellow dog is chasing a ball	4.8	A	chase	voix_simple
